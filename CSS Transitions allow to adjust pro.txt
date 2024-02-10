@@ -1,0 +1,7 @@
+CSS Transitions allow to adjust property values smoothly over time
+
+Transition
+Transition Property
+Transition-delay
+Transition-delay
+Transition-timing-function

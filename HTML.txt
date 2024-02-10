@@ -1,0 +1,193 @@
+Internet - Global Network which connect billions of devices. 
+
+WWW - World Wide Web (Public  Websites Which able to access in our local system through the internet)
+
+Websites - Collection of Webpages
+
+Webpages - Single Application.  
+
+Web Browser - The web browser is an software application to explore world wide web.
+
+Web server -  The web server are designed to store,process and send information over www.
+
+Two Types of Websites
+
+Static Website  - Consistent(same content delivered to the users) 
+
+Dynamic Website - Dynamic Website retrieves content in real-time,allowing it alter with the user.
+
+                                It is changeable according to user expectations.
+
+HTTP -  Hyper text transfer Protocol  ( The interaction between client and server through Request and Response)
+
+Hyper text Markup Language 
+
+To Structure  the webpage and  Building Blocks of Web
+
+Case Insensitive Language 
+
+Building Block of HTML 
+
+Elements
+<opening tag>Content</closing tag>
+eg: <h1>Content</h1>
+Tags
+
+Container Tag
+<opening tag>
+</closing tag>
+
+Standalone Tag
+
+<img>
+<br>
+<hr>
+
+Attributes - Additional Information about the elements
+
+
+Structure of the html Webpage
+
+<!Doctype html>  Version of html 
+<html>   -   Type of Document
+<head>  -    Additonal Information about the webpage (Meta data)
+<title>content</title> 
+</head>
+<body>  -  content of the htmlWebpage
+<h1>content</h1>
+</body> 
+</html>
+
+
+SEO (Search Engine Optimization) It is defined as orienting website to rank higher on a search engine result page.
+
+HTML ELEMENTS
+
+<h1>Content</h1>
+<h6>Content</h6> - Default size Rendered in the webpage
+<p>Paragraph</p>
+Pixels - Length of the height and width
+
+<img tag>
+
+<img src="filename.fileextension">
+<img src="C:\Users\Username\Desktop\motive.jpeg">
+
+Alternate 
+
+<img src="" alt="Content">
+
+
+HTML DAY 1
+
+<!Doctype html>
+<html>
+<head>
+<title>My Webpage</title>
+</head>
+<body>
+<h1>Full Stack Development</h1>
+<h2>Full Stack Development</h2>
+<h3>Full Stack Development</h3>
+<h4>Full Stack Development</h4>
+<h5>Full Stack Development</h5>
+<h6>Full Stack Development</h6>
+<h1>Paragraph</h1>
+<p>Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages and runtimes (such as C++, C#, Java, Python, PHP, Go, .NET). Begin your journey with VS Code with these introductory videos.</p>
+
+
+<h1>Image tag</h1>
+<img src="C:\Users\Username\Desktop\motive.jpeg"  width="500px" height="600px">
+
+<img src="motive.jpg" alt="Motivational Picture">
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+Text formatting Tag
+
+<i>
+<b>
+<mark>
+<del>
+<sub>
+<sup>
+<br>
+<hr>
+<strong>
+<ins>
+
+<Anchor tag>
+
+syntax : 
+
+<a href="">Home</a>
+
+IFRAME
+
+<iframe src =""><iframe>
+
+LIST TAG
+
+Ordered List 
+
+Unordered List
+
+Description List
+<dl>
+<dt></dt>
+<dd></dd>
+</dl>
+
+<h1>Audio Tag</h1>
+<audio src="midnight-forest-184304.mp3" controls></audio>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

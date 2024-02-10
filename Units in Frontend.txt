@@ -1,0 +1,38 @@
+Units in Frontend
+
+1 pixel
+
+2 em relative to the body current font size
+
+3 rem relative to the root element(div)parent-current font size
+rem&em
+ .para1{
+        font-size: 10px;
+      }
+      .para2{
+        font-size: 2rem;
+      }
+ 
+4 vh - viewport height
+
+5 vw - viewport width
+
+   .box{
+        width:50vw;
+        height:50vh;
+        background-color: aqua;
+        border: 2px solid black;
+      }
+
+6 vmin  - viewport minimum
+
+7 vmax - viewport maximum
+
+
+ .box{
+        /* width:30vmin;  compare with lowest screen size */
+        /* height:50vmax; compare with highest screen size */
+      
+        background-color: aqua;
+        border: 2px solid black;
+      }

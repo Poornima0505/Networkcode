@@ -1,0 +1,191 @@
+ body{
+            background-color: orangered;
+            color:yellow;
+            font-weight: bold;
+            font-size:20px;
+        }
+
+
+COLOR,IMAGE,REPEAT,POSITION,HEIGHT,WIDTH
+
+  html{
+            background-color: aliceblue;
+        }
+      
+        body{
+          background-color: aqua;
+          background-image: url(mic.jpeg);
+          background-repeat: no-repeat;
+          background-position: bottom center;
+          height:800px;
+          width:1500px;
+        }
+
+SIZE
+body{
+          background-color: aqua;
+          background-image: url(mic.jpeg);
+          background-size: 500PX 200PX;
+          background-repeat: no-repeat;
+          background-position: bottom center;
+          height:800px;
+          width:1500px;
+        }
+
+DIV CONTAINER,BACKGROUNDCOLOR+BACKGROUND IMAGE  BACKGROUND SIZE
+
+1.contain
+2.cover
+3.auto
+div{
+        padding:10px;
+        width:1500px;
+        height:700px;
+        background: darkorange url(dhoni.jpg) no-repeat;
+        background-size: cover;
+
+       }
+
+ div{
+        padding:10px;
+        width:1500px;
+        height:700px;
+        background: darkorange url(dhoni.jpg) no-repeat;
+        background-size: cover;
+        background-size: contain;
+        
+ }
+
+BACK-GROUND ATTACHMENT
+Scroll
+Fixed
+div{
+            color:yellowgreen;
+            font-weight: bold;
+            font-size: 20px;
+            padding:10px;
+            background: blue url(dhoni.jpg) no-repeat;
+            background-size: 1000px 1000px;
+            background-size: cover;
+            background-attachment: fixed;
+          
+        }
+
+
+BaACKGROUND-CLIP 
+
+Background-image
+width
+height
+font
+background-size:cover;
+color:
+background-clip:text;
+center
+
+
+Chrome(-webkit-)
+
+
+
+BACKGROUND LINEAR GRADIENT
+
+    body{
+            background-color: blueviolet;
+        }
+        div{
+            background-color:aqua;
+            width:800px;
+            height:800px;
+            background:linear-gradient(yellow,green);
+            background: linear-gradient(#FFBF00,red,#DE3163);
+            background: linear-gradient(to bottom left,green, rgb(226, 16, 51),yellow);
+        }
+
+Using Degree & Percentage
+
+ div{
+            background-color:aqua;
+            width:800px;
+            height:800px;
+            background:linear-gradient(yellow,green);
+            background: linear-gradient(#FFBF00,red,#DE3163);
+           
+            background: repeating-linear-gradient(-45deg, pink 10%, rgb(226, 16, 51)30%,yellow 20%);
+        }
+
+Radial Gradient & Repeating Radial Gradient
+
+div{
+            background-color:aqua;
+            width:800px;
+            height:800px;
+            background:radial-gradient(red,yellow,green);
+            /* background:repeating-radial-gradient(closest-side at 45% 50%,rgb(231, 11, 228) 50%  ,rgb(240, 232, 11) 50%,rgb(239, 86, 4) 50%);
+            background:repeating-radial-gradient(Farthest-side at 45% 50%,rgb(231, 11, 228)  ,rgb(240, 232, 11) 50%,rgb(239, 86, 4) 50%);
+            background:repeating-radial-gradient(closest-corner at 45% 50%,rgb(231, 11, 228)  ,rgb(240, 232, 11) 50%,rgb(239, 86, 4) 50%);
+            background:repeating-radial-gradient(Farthest-corner3 at 45% 50%,rgb(231, 11, 228)  ,rgb(240, 232, 11) 50%,rgb(239, 86, 4) 50%);
+             background:repeating-radial-gradient(circle,red,yellow ,purple ); */
+
+}
+
+
+div{
+            background-color:aqua;
+            width:800px;
+            height:800px;
+            background:repeating-radial-gradient(Farthest-corner,red,yellow ,purple );
+        }
+       
+
+CONIC GRADIENT & REPEATING CONIC GRADIENT
+
+
+        div{
+            background-color:aqua;
+            width:800px;
+            height:800px;
+            background-image: conic-gradient(red,green ,yellow); 
+            background-image: conic-gradient(yellow,green,pink,blue,rgb(170, 8, 251),white,orange,purple);
+            background-image: repeating-conic-gradient(red,yellow 10%,blue 20%);
+            background-image: repeating-conic-gradient(yellow,green ,pink ,blue,rgb(170, 8, 251),white ,orange 10% ,purple 10% );
+
+
+
+             background-image: repeating-conic-gradient(at 60% 45%,red,yellow,blue 20%);
+
+        }
+
+Background-Blend
+
+
+ div{
+        width: 500px;
+        height:500px;
+        border:3px solid black;
+        background-image: linear-gradient(red,yellow,green),url(dhoni.jpg);
+        background-blend-mode: screen;
+        background-blend-mode:hard-light;
+        background-blend-mode:color-dodge;
+        background-blend-mode:exclusion;
+
+    
+       }
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,188 @@
+Flex box Properties
+
+1.display
+2.inline-flex
+3.flex-direction
+row
+row-reverse 
+column
+column-reverse
+4.fle-wrap
+wrap
+No wrap
+wrap-reverse
+
+5.flex-flow:flex-diretion flex-wrap;
+
+eg:   flex-flow: row-reverse  wrap;
+
+6. column-gap
+
+7. row-gap
+
+8. gap: row-gap column-gap;
+
+eg:  gap:20px 30px;
+
+9.Justify-content
+
+flex-start
+flex-center
+flex-end
+
+10.align-items
+flex-start
+flex-center
+flex-end
+
+11 align-content
+flex-start
+flex-center
+flex-end
+
+
+Flex-item-Properties
+
+1 order
+2 flex-grow
+3 flex-basis
+4 flex-shrink
+5 align-self
+
+flex:flex-grow flex-shrink flex-basis
+
+flex: flex-grow
+
+flex: flex-grow flex-basis
+
+6 align-self
+flex-start
+center
+flex-end
+
+.container{
+   display: flex;
+   flex-direction: row;
+   height:500px;
+   align-items: stretch;
+   
+   
+}
+
+.item-5{
+    align-self: flex-end;
+    align-self: center;
+    align-self: flex-start;
+
+}
+
+.item-8{
+
+    align-self: center;
+
+}
+
+GRID
+
+Two Dimensional Layout
+
+Grid container------------Grid items------------Grid line
+
+Full of Row Selection----------Grid Track row
+
+Column Selection---------Grid Track column
+
+Inside Grid container-----------Grid cell-----Grid area
+
+Grid Container Properties
+
+1. display
+2. inline-grid
+
+.container{
+    /* display:grid;  change to block level element */
+    /* display: inline-grid;  change according to the content width */
+    display: inline-grid;
+}
+
+3 grid-template-columns
+
+Fr --------The Fractional unit that automatically calculates layout divisions when adjusting for gap inside the grid container
+
+1fr = 25%
+
+.container{
+    display: grid;
+    /* grid-template-columns: 100px 200px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: repeat(3,100px);
+    grid-template-columns: repeat(3,100px) 200px;
+    grid-template-columns: 1fr 2fr 3fr 2fr; */
+    grid-template-columns: repeat(3,minmax(200px,1fr));
+}
+
+4. grid-template-row
+.container{
+    display:grid;
+    height:auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px;
+    grid-template-rows: 100px 200px 200px;
+    grid-template-rows: repeat(9,200px);
+    grid-template-rows: repeat(3,minmax(200px,2fr));
+    grid-template-rows: repeat(3,2fr);
+}
+
+5 grid-template
+.container{
+    display:grid;
+    height:600px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    /* grid-template (shorthand property) */
+    /* grid-template: repeat(4,1fr)/repeat(3,1fr);  row  column */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

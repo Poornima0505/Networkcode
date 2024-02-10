@@ -1,0 +1,218 @@
+Transition 
+
+CSS Transition allows to adjust property values smoothly over time.
+
+1.Transition Property
+2.Transition delay
+3.Transition duration 
+4.Transition timing function 
+         Ease in   start slow------------finish fast
+         Ease out  Start fast--------------finish slow
+         Ease in-out  - Both
+         Linear - Uniform
+
+
+Transition
+
+   div{
+            /* background-color: blueviolet; */
+            background: linear-gradient(red,darkorange);
+            border:2px solid springgreen;
+            width:300px;
+            height:300px;
+            margin-top:100px;
+            margin-left:500px;
+            transition-property: all;
+            transition-duration: 8s;
+            /* transition-timing-function: ease-in-out; */
+            /* transition-timing-function: ease-in; */
+            /* transition-timing-function: ease-out; */
+            transition-delay: 2s;
+
+        
+        }
+
+
+
+
+Tranform - formation 
+
+The transform CSS Property rotate,scale,skew and translate an element 
+
+1.Rotate
+2.Rotate X
+3.Rotate Y
+
+ div{
+            /* background-color: blueviolet; */
+            background: linear-gradient(red,darkorange);
+            border:2px solid springgreen;
+            width:300px;
+            height:300px;
+            margin-top:100px;
+            margin-left:500px;
+            transition-property: all;
+            transition-duration: 5s;
+            transition-delay: 2s;
+
+        
+        }
+        div:hover{
+            /* width:50%; */
+          
+            background-image: url(log.jpg);
+            transform:rotateY(360deg);
+            transform:rotateX(90deg);
+            transform:rotate(360deg);
+}
+
+SCALE 
+
+1.Scale X
+2.Scale Y
+
+  div:hover{
+            /* width:50%; */
+          
+            background-image: url(log.jpg);
+            /* transform:scaleX(3); */
+            transform:scaleY(5)
+        }
+
+Skew
+
+The function is an inbuilt function which is used to transform an element in the 2d plane
+
+Skew(ax,ay)
+Skew(ax)
+SkewX(a)
+skewY(a)
+
+translateX(-val)
+translateX(+val)
+translateY(-val)
+translateY(+val)
+
+   .main{
+            display: flex;
+            /* align-items: center;(Horizontally Aligned) */
+        }
+        .skew{
+            width:200px;
+            height:200px;
+            background-image: url(skew.jpeg);
+            background-size: cover;
+            margin:70px;
+            /* transform: skew(10deg ,10deg);
+            transform: skew(10deg);
+            transform: skewX(10deg);
+            transform: skewY(10deg); */
+         /* transform:translateX(-50px) ; */
+             transform:translateY(-50px) ;
+            
+        }
+
+
+Animations in CSS
+
+It is defined To move animate transition from one position to another position 
+
+@keyframes - It indicate Start and end states of  the animation style.
+
+The Css Controls intermediate steps in Css animation sequence by defining styles for Keyframes aloong the animation sequence.
+
+Animation-name
+Animation-duration
+Animation-fill-mode
+forwards
+backward
+Animation-iteration-count
+
+
+Syntax:
+
+@keyframes identifier{
+
+from {
+
+Property:value;
+
+}
+
+To {
+property:value;
+
+}
+
+}
+
+REFERENCE CODE FOR ANIMATION
+
+  <style>
+        .box{
+            width:300px;
+            height:300px;
+            background-color: #00FF00;
+            border-radius:50%;
+            animation-name:circle;
+            animation-duration: 20s;
+            /* animation-fill-mode: backwards; */
+            animation-fill-mode: forwards;
+            /* animation-fill-mode: both; */
+            animation-iteration-count: 10;
+        }
+
+        @keyframes circle {
+            10%{
+                background-color: #ff0000;
+                width:200px;
+                height:200px;
+                margin:100px 400px;
+            }
+            30%{
+                background-color: #ccff00;
+                width:300px;
+                height:300px;
+                margin:100px 100px;
+            
+            }
+            60%or 100%{
+                background-color: #ff1493;
+                width:200px;
+                height:200px;
+                margin:600px 800px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation in CSS</h1>
+    <div class="box"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

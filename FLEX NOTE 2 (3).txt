@@ -1,0 +1,343 @@
+column gap
+row gap 
+
+.container{
+    display: flex;
+    /* column-gap:20px; */
+    flex-direction: row;
+    /* row-gap: 40px; */
+    column-gap: 40px;
+    flex-direction: column;
+    row-gap:40px;
+    
+    
+}
+gap
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap : row column */
+    gap:20px 30px; 
+
+}
+
+Justify-content
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* justify alignment   column - y- main  row-x-cross  */
+    flex-wrap: wrap;
+    justify-content:stretch;
+    justify-content: flex-start;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+
+
+
+
+    /* flex-direction: column; */
+    /* justify alignment   column - y- main  row-x-cross  */
+    /* height:800px;
+    justify-content: flex-start;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+    
+  
+
+}
+align-items
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height:600px;
+    align-items:stretch ;
+    align-items: baseline;
+    align-items: center;
+    align-items: start;
+    align-items: end;
+
+}
+
+.item-1:hover{
+    font-size: 100px;
+}
+
+.item-2:hover{
+    font-size: 300%;
+}
+
+.item-3:hover{
+    font-size: 200%;
+}
+
+align-content
+
+.container{
+    /* align content row-x-main column-y-cross   (Horizontal)*/
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap;
+    height:800px;
+    align-content: flex-start;
+    align-content: center;
+    align-content: end; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:800px;
+    align-content: flex-start;
+    /* align-content: center;
+    align-content: end; */
+    align-content: space-evenly;
+                           space-between;
+                           space-evenly ;
+   
+}
+
+FLEX ITEM PROPERTIES
+
+Order
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-1{
+
+    order:3;
+}
+
+.item-2{
+    order:3;
+}
+
+.item-3{
+    order:2;
+}
+.item-4{
+    order:5
+}
+.item-5{
+    order:4;
+}
+<-------------------------------------------------------->
+/* .item-1{ ( compare first arrived )
+    order:1;
+} */
+
+
+.item-7{
+    order:1;
+}
+<-------------------------------------------------------------->
+flex-grow
+/* flex-grow */
+
+.item-2{
+    /* flex-grow: 0; default */
+}
+
+.item-5{
+    flex-grow: 2;
+}
+
+.item-3{
+    flex-grow: 1;
+}
+.item-4{
+    flex-grow: 1;
+}
+.item-1{
+    flex-grow: 1;
+}
+
+<----------------------------------------------------------------------->
+
+
+flex-basis
+.container{
+    display: flex;
+}
+
+/* flex-basis */
+.flex-item{
+    width:150px;
+}
+
+
+
+.item-1{
+    /* instead for width */
+    flex-basis: 600px;
+}
+
+.item-2{
+    flex-basis: 400px;
+}
+
+<----------------------------------------------------------->
+
+flex-shrink
+
+.container{
+    display: flex;
+}
+
+Not allowing the items to overlap
+.flex-item{
+    /* flex-shrink: 0; default value */
+    /* flex-shrink: 1; */
+}
+
+--------------------------------------------------------------------------------
+
+shorthand Property
+flex:flex-grow flex-shrink flex-basis
+flex:flex-grow;
+flex:flex-grow flex-basis;
+
+.container{
+    display: flex;
+}
+
+/* flex:flex-grow flex-shrink flex-basis;
+flex:flex-grow;
+flex:flex-grow flex-basis */
+.item-4{
+    /* flex:1 1 200px; */
+    flex:1;
+    flex:1 400px;
+
+}
+
+<-------------------------------------------------------------------------->
+
+align-self
+
+.container{
+    display: flex;
+    height:500px;
+    flex-direction: column;
+    flex-direction: row;
+    align-items: stretch;
+    
+}
+
+.item-2{
+    align-self: flex-start;
+}
+.item-3{
+    align-self:center;
+}
+.item-4{
+    align-self:flex-end;
+}
+.item-5{
+    align-self:flex-start
+}
+
+<---------------------------------------------------------------------------------->
+
+GRID - Two dimensional layout
+
+first row and  column connected to last row and column
+
+Grid container----------------Grid items-------------Grid line
+
+Grid Track Row--------------Grid  Track column
+
+Inside Grid Container------------Grid-cell(Grid area)
+
+Grid Container Properties
+
+display
+
+inline-grid
+
+grid-template-columns
+
+grid-template-row
+
+shorthand property(grid-template)
+
+column gap
+
+row gap
+
+shorthand property(gap)
+
+justify-items
+
+align-items
+
+place items(shorthand Property)
+
+justify-content
+
+align-content
+
+place-content(shorthand property)
+
+Grid item Properties
+
+grid-column-start
+
+grid-column-end
+
+grid-column
+
+grid-row-start
+
+grid-row-end
+
+grid-row
+
+justify-self
+
+align-self
+
+place-self(shorthand property)
+
+grid-area
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

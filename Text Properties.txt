@@ -1,0 +1,258 @@
+Text Properties
+
+
+
+The Properties which is used to give multiple styles for the text.
+
+1.Text Color
+2.Text Alignment
+3.Text Decoration
+4.Text Transformation 
+5.Text Spacing
+6.Text Shadow
+
+Image Tag- Alternate(alt) text for an image
+
+<img src="" width="" height=""  alt =""> 
+
+
+Text color
+1.Direct color name
+
+2.Hex value eg: "c6beee"
+
+3 RGB - RED GREEN BLUE-
+"rgb(250, 320, 200)"
+
+h1{
+    color:deeppink;
+}
+
+.head1{
+    color:#8b0850;
+}
+p{
+    color:rgb(0, 0, 255)
+}
+
+2.Text Alignment
+
+text-align:center;
+
+text-align:right;
+
+text-align:left
+
+h1{
+    color:deeppink;
+    text-align:center;
+}
+
+.head1{
+    color:#8b0850;
+    text-align:right;
+
+3.Text Decoration 
+
+text-decoration:overline;  (horizontal line above the content)
+text-decoration:underline; (horizontal line below the content)
+line through;
+none;
+
+h1{
+    color:deeppink;
+    text-align:center;
+    text-decoration: overline;
+}
+
+.head1{
+    color:#8b0850;
+    text-align:right;
+    text-decoration: underline;
+
+}
+p{
+    color:rgb(0, 0, 255)
+}
+
+span{
+    text-decoration: line-through;
+}
+a{
+    text-decoration: none;
+}
+
+4. Text Transformation
+
+text-transform:uppercase;
+
+text-transform:lowercase;
+
+text-transform:capitalize;
+
+h1{
+    color:deeppink;
+    text-align:center;
+    text-transform: uppercase;
+   
+}
+
+.head1{
+    color:#8b0850;
+    text-align:right;
+    text-transform: lowercase;
+    
+}
+p{
+    text-transform: lowercase;
+    color:rgb(0, 0, 255)
+}
+
+Text spacing
+
+1.text-indent 
+
+p{
+    text-indent: 40px;
+    color:rgb(0, 0, 255)
+}
+
+2.Letter Spacing- (space will be provided for every letter)
+
+Positive value
+Negative Value
+
+
+3.Line height (Decide the gab between content )
+
+---------------
+---------------
+---------------
+
+p{
+    text-indent: 40px; 
+    letter-spacing: 1px;
+    line-height:0.9;
+    color:rgb(0, 0, 255)
+}
+
+4.Word Spacing
+
+p{
+    text-indent: 40px; 
+    letter-spacing: 1px;
+    line-height:0.9;
+    word-spacing: 20px;
+    color:rgb(0, 0, 255)
+    
+}
+
+6.Text Shadow
+
+text-shadow:3px 3px  color;
+
+1.Horizontal
+2.Vertical
+3.color
+
+h1{
+    
+    text-align:center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px darkorchid;
+   
+}
+
+Comment line
+
+1.HTML -   <!--content-->
+
+2.CSS-      /*{        
+                        }*/
+
+Shortcut Key:  ctrl /
+
+To Release Again : ctrl  /
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

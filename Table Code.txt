@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<table  border="2px" cellspacing="5px" cellpadding="5px" bgcolor="yellow">
+<thead>
+    <th>Date</th>
+    <th colspan="2">Time table</th>
+    <th>Day1</th>
+    <th>Day2</th>
+    <th>Day3</th>
+    
+    
+</thead>
+<tbody>
+    <tr>
+        <td bgcolor="grey">01/12/23</td>
+       <td>Maths</td>
+       <td>Physics</td>
+       <td>chemistry</td>
+       <td>Social</td>
+       <td>Social</td>
+       
+    </tr>
+    <tr>
+        <td bgcolor="grey">02/12/23</td>
+        <td>Maths</td>
+        <td>Physics</td>
+        <td>chemistry</td>
+        <td>Social</td>
+        <td>Social</td>
+        
+     </tr>
+     <tr>
+        <td bgcolor="grey">03/12/23</td>
+        <td>Maths</td>
+        <td>Physics</td>
+        <td>chemistry</td>
+        <td>Social</td>
+        <td>Social</td>
+        
+     </tr>
+     <tr>
+        <td bgcolor="grey">04/12/23</td>
+        <td>Maths</td>
+        <td>Physics</td>
+        <td>chemistry</td>
+        <td>Social</td>
+        <td>Social</td>
+       
+     </tr>
+     <tr>
+        <td bgcolor="grey">05/12/23</td>
+        <td>Maths</td>
+        <td>Physics</td>
+        <td>chemistry</td>
+        <td>Social</td>
+        <td>Social</td>
+       
+     </tr>
+</tbody>
+<tfoot>
+    <th bgcolor="grey" colspan="6">Total No of subject = 5</th>
+</tfoot>
+
+</table>
+    
+</body>
+</html>

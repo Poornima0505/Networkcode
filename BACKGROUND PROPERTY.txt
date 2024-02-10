@@ -1,0 +1,338 @@
+BACKGROUND PROPERTY
+
+1.Background-color
+2.Background-image
+3.Background-size
+4.Background-repeat
+5.Background-position
+6.Background-Attachment
+
+1.Background-color  
+
+body{
+    background-color: yellow;
+    color:blueviolet;
+    font-weight: bold;
+    font-size:20px;
+}
+
+2.Background
+
+Color
+Image
+Background image  Syntax: background-image:url();
+
+Repeat
+
+        1.no-repeat
+        2 repeat-x
+        3 repeat-y
+        4 repeat
+
+body{
+    background-color: blueviolet;
+    background-image: url(mic.png);
+    background-repeat:repeat-y;
+    background-repeat: no-repeat;
+    height:800px;
+    width:1500px;
+}
+
+Background-Size
+Method 1
+     1.background-size :  height width;
+     2.Height
+     3.Width
+Method 2
+      1.contain
+      2.cover 
+      3.auto
+
+Background-Position
+        top center
+        bottom center
+
+
+
+        
+
+
+
+
+
+body{
+    background-color: aqua;
+    background-image: url(image.jpg);
+    color:yellow;
+    background-repeat: no-repeat;
+    /* background-size:1700px 1700px; */
+    background-size: auto;
+}
+
+/* html{
+    background-color: white;
+}
+
+
+body{
+    background-color: blueviolet;
+    background-image: url(mic.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height:800px;
+    width:1500px;
+}
+
+
+
+Shorthand Property
+ background:orangered url(dhoni.jpg) no-repeat;
+
+
+*{
+    margin:0px;
+}
+
+
+
+.div1{
+    background:orangered url(dhoni.jpg) no-repeat;
+    width:1500px;
+    height:800px;
+    background-size: cover;
+    padding: 50px 50px 50px 50px;
+    
+
+
+}
+
+Background Attachment
+
+Fixed 
+Scroll
+
+syntax eg: {
+
+               background-attachment:scroll;
+
+            }
+
+.div1{
+    background:orangered url(dhoni.jpg) no-repeat;
+    background-size: cover;
+    width:1000px;
+    height:800px;
+    padding: 50px 50px 50px 50px;
+    font:20px red  Times New Roman;
+    background-attachment: fixed;
+    
+     background-attachment: srcoll;    
+
+
+}
+
+7.Background Clip
+
+The bakground area for an element  to clip the background-image,color or gradient 
+
+background-clip : text;
+
+div{
+    background-image: url(clip.jpg);
+    background-repeat: no-repeat;
+    font:70px Vivaldi;
+    width:800px;
+    height:500px;
+    background-size: cover;
+    color:transparent;
+    background-clip: text;
+    text-align:center;
+}
+
+
+
+                             padding-box;
+
+                             content-box;
+
+                             border-box;
+
+div{
+    background: aqua url(dhoni.jpg) no-repeat;
+    background-size: cover;
+    border: 5px solid black;
+    width:800px;
+    height:500px;
+    padding:20px;
+    background-clip: content-box;
+    background-clip: padding-box;
+    background-clip: border-box;
+    
+}
+
+Gradient - Using Two or More Color Styles
+8.Back Ground Linear Gradient 
+
+
+Top 
+Bottom
+Right
+Left
+Top left,right
+Bottom left,right
+Using Deg(+&-) , Percentage
+
+
+div{
+   margin:50px;
+   background-color:yellow;
+   width:800px;
+   height:500px;
+   /* background:linear-gradient(yellow,blue,red); */
+   background:linear-gradient(to top right,#DFFF00,#DE3163,green);
+
+ Repeating Linear Gradient
+
+div{
+   margin:50px;
+   background-color:yellow;
+   width:800px;
+   height:500px;
+   /* background:linear-gradient(yellow,blue,red); */
+   background:repeating-linear-gradient(-90deg,#DFFF00 ,#DE3163 10%,green 10%,blue 10%);
+
+}
+
+
+9.Background Radial Gradient
+
+                      Repeating Radial Gradient
+closest-side
+Farthest-side
+Closest-corner
+Farthest-corner
+circle
+
+Eg 1
+
+background:radial-gradient(closest-side at 80% 50%,red,navy,yellow);
+ background:radial-gradient(farthest-side at 80% 50%,red,navy,yellow);
+
+/* background:radial-gradient(closest-corner at 60% 20%,red,navy,yellow); */
+   background:radial-gradient(farthest-corner,rgb(201, 16, 16) ,#40E0D0,yellow);
+
+Eg 2
+
+div{
+   margin:50px;
+   background-color:yellow;
+   width:800px;
+   height:500px;
+   
+   /* background:repeating-radial-gradient(closest-side  at 60% 20% ,red,green 10%,yellow 10%);
+   background:repeating-radial-gradient(farthest-side  at 60% 20% ,red,green 10%,yellow 10%);
+   background:repeating-radial-gradient(closest-corner  at 60% 20% ,red,green 10%,yellow 10%);
+   background:repeating-radial-gradient(farthest-corner  at 60% 20%,red,green 10%,yellow 10%); */
+   background:repeating-radial-gradient(circle,red ,yellow 10%,blue 10%);   
+   
+
+    
+    
+}
+
+
+
+10.Background Conic Gradient
+
+div{
+    background-color: brown;
+    width:500px;
+    height:500px;
+    background: conic-gradient(from 60deg,red,green,yellow,blue,purple,brown,black);
+}
+Repeating  Conic Gradient
+
+For Degree in Conic Gradient
+
+background:repeating-conic-gradient(from 45deg, navy,yellow ,red  );
+
+
+background:repeating-conic-gradient(from 45deg, navy,yellow 10% ,red 10%  );- (with percentage)
+
+background:repeating-conic-gradient( navy,yellow 10% ,red 10%  );
+
+
+
+
+
+
+11.Background Blend
+
+Different types of effects for the background image
+
+div{
+    
+    background-image:linear-gradient(red,yellow,green),url(clip.jpg);
+   
+    width:500px;
+    height:500px;
+    border:5px solid black;
+    background-blend-mode:color-dodge;
+    background-blend-mode: color-burn;
+    background-blend-mode:darken;
+    background-blend-mode:exclusion;
+    background-blend-mode:hard-light;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

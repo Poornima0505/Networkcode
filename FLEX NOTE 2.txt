@@ -1,0 +1,100 @@
+column gap
+row gap 
+
+.container{
+    display: flex;
+    /* column-gap:20px; */
+    flex-direction: row;
+    /* row-gap: 40px; */
+    column-gap: 40px;
+    flex-direction: column;
+    row-gap:40px;
+    
+    
+}
+gap
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap : row column */
+    gap:20px 30px; 
+
+}
+
+Justify-content
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* justify alignment   column - y- main  row-x-cross  */
+    flex-wrap: wrap;
+    justify-content:stretch;
+    justify-content: flex-start;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+
+
+
+
+    /* flex-direction: column; */
+    /* justify alignment   column - y- main  row-x-cross  */
+    /* height:800px;
+    justify-content: flex-start;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+    
+  
+
+}
+align-items
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height:600px;
+    align-items:stretch ;
+    align-items: baseline;
+    align-items: center;
+    align-items: start;
+    align-items: end;
+
+}
+
+.item-1:hover{
+    font-size: 100px;
+}
+
+.item-2:hover{
+    font-size: 300%;
+}
+
+.item-3:hover{
+    font-size: 200%;
+}
+
+align-content
+
+.container{
+    /* align content row-x-main column-y-cross   (Horizontal)*/
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap;
+    height:800px;
+    align-content: flex-start;
+    align-content: center;
+    align-content: end; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:800px;
+    align-content: flex-start;
+    /* align-content: center;
+    align-content: end; */
+    align-content: space-evenly;
+   
+}

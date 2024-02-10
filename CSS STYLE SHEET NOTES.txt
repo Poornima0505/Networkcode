@@ -1,0 +1,90 @@
+Iframe Tag
+<iframe src=""></iframe>
+
+The Tag is used to embed webpage to another webpage 
+syntax: <iframe src=""></iframe>
+
+Four types of HTTP Method
+GET - Retrive the data from web browser to server
+POST - Create data
+PUT - Replaces the data
+DELETE- Remove the data 
+
+syntax:
+type = value
+
+Values:
+text
+number
+password
+checkbox
+radio
+date
+
+Attributes
+Placeholder
+readonly
+required 
+maxlength
+minlength
+
+CSS - Cascading Style Sheets
+
+Cascading - Multiple CSS Rules apply to an html element
+
+<h1>Webpage</h1>
+
+Style - Mandatory Attributes for every css rules.
+
+Types of Style Sheets
+
+1.Inline Style Sheet - Using Inside the Html Elements.
+2.Internal Style Sheet - Inside the head tag 
+<head>
+<style>
+selector{
+property:value ;
+}
+</style>
+</head>
+
+3.External Style Sheet-Adding the style sheet
+
+To link style.css into html
+
+syntax: <link rel="stylesheet" href="filename.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <form action ="" method = post or get >

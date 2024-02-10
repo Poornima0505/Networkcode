@@ -1,0 +1,157 @@
+1.Opacity
+
+   div{
+            border:2px solid black;
+
+            width:500px;
+            padding:20px;
+        }
+        img:hover{
+           /* background-size: 100px 500px;
+           background-size: cover; */
+           opacity: 0.2;
+        }
+
+Opacity value ranges from (0.1 to 1)
+2.List-type
+
+List-style-type
+ul li{
+            list-style-type: disc;
+            list-style-type: decimal;
+            list-style-type: decimal-leading-zero;
+            list-style-type:circle;
+            list-style-type: square;
+            list-style-type: upper-roman;
+            list-style-type: lower-alpha;
+        
+        }
+List-style-position 
+
+#list2 li{
+           list-style-position: outside;          
+            /* list-style-position: inside; */
+            list-style-type: decimal;
+        
+        }
+
+Display Properties
+
+1.Block
+
+Cover the whole width of the webpage
+ h1,p{
+            background-color: aqua;
+         }
+         b{
+            display:block;
+            background-color: red;
+         }
+       
+2.Inline 
+
+Cover the space around the content
+
+h1,p{
+            background-color: aqua;
+         }
+         b{
+            display:inline;
+            height:50px;
+            width:320px;
+            background-color: red;
+         }
+
+
+ul li{
+            display: inline;
+            background-color: orangered;
+            margin:20px;
+            padding:20px;
+
+         }
+
+3.Inline-Block
+
+ h1,p{
+            background-color: aqua;
+         }
+         b{
+            display:inline-block;
+            height:30px;
+            width:1200px;
+            background-color: red;
+         }
+
+TABLE
+
+ <table width="50%"  cellpadding="5px" cellspacing="10px" border="2px" >
+        <thead>
+            <th>Name</th>
+            <th>Roll no</th>
+            <th>Department</th>
+        </thead>
+        <tbody style="text-align: center;">
+            <tr>
+                <td>Ashok kumar</td>
+                <td>2001</td>
+                <td rowspan="7">Full Stack</td>
+            </tr>
+            <tr>
+                <td>Allen</td>
+                <td>2002</td>
+                
+            </tr>
+            <tr>
+                <td>Jadwin</td>
+                <td>2003</td>
+               
+            </tr>
+            <tr>
+                <td>Arpit</td>
+                <td>2004</td>
+                
+            </tr>
+            <tr>
+                <td>Sridhar</td>
+                <td>2005</td>
+                
+            </tr>
+            <tr>
+                <td>Krisha</td>
+                <td>2006</td>
+                
+            </tr>
+            <tr>
+                <td>Spoorthi</td>
+                <td>2007</td>
+                
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="3">TOTAL STRENGTH=7</th>
+        </tfoot>
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

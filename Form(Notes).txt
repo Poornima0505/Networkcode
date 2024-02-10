@@ -1,0 +1,112 @@
+Video Tag
+syntax :
+<video src="" controls autoplay loop></video>
+
+<audio tag>
+syntax: <audio src="" controls>
+            <audio src="" controls autoplay>
+            <audio src="" loop>
+
+Controls: 
+The control attribute(additional information about the video element)
+
+Play
+Pause
+Volume
+Screen toggle
+
+Autoplay - Playing without Play and Pause
+
+Loop -  Running without stop and start
+
+FORM TAG 
+
+The User Mainly Give their  Basic details in the Form eg:Registration,Application etc
+
+HTTP
+Hyper Text Transfer  Protocol(set of rules or instruction to perform function)
+
+HTTP METHOD
+
+GET -  Retrieve Data from Server and client
+POST - Created and stored in Database
+PUT - Replaces the data 
+DELETE - Remove the data
+
+
+<form action ="url" method ="Post or Get">
+<label for ="firstname">FIRSTNAME</label>
+<input type="text" name="firstname"  id="firstname">
+
+TYPE = VALUES
+
+text
+number
+email
+password
+checkbox - Selecting Multiple Answers
+radio
+Date 
+file
+
+(Button Type)
+Submit
+Reset
+
+Attributes
+Placeholder
+Readonly
+Required
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aqua;"
+    <h1>FORM TAG</h1>
+    <form action="Registration.html">
+        <fieldset>
+        <legend style="font-family: Sitka Heading; color:orangered">Registration Form</legend>
+        <label for="Username">Firstname:</label>
+        <input type="text" name="fname" id="fname" placeholder="firstname"><br><br><br>         
+        <label for="Username">Lastname:</label>
+        <input type="text" name="uname" id ="uname"  value="Ravi" readonly><br><br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required><br><br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password"><br><br><br>
+
+        <label for="district">District:</label>
+        <input type="checkbox" name="city1" id="city1">Chennai
+        <input type="checkbox" name="city2" id="city2">Coimbatore
+        <input type="checkbox" name="city3" id="city3">Salem
+        <br><br><br>
+        <label for="district">District:</label>
+        <input type="radio" name="city" id="city">Chennai
+        <input type="radio" name="city" id="city">Coimbatore
+        <input type="radio" name="city" id="city">Salem
+        <br><br><br>
+        <label for="date">DOB:</label>
+        <input type="date" name="date" id="date"> <br><br><br>
+
+        <label for="musics">MUSIC ARTISTS:</label>
+        <select value="musics">
+            <option></option>
+            <option value="musics">SPB</option>
+            <option value="musics">SHANKAR MAHADEVAN</option>
+            <option value="musics">ANIRUDH</option>
+            <option value="musics">SHREYA GHOSHAL</option>
+        </select>
+        <br><br><br>
+        <button type="reset">Reset</button>
+        <button>Submit</button>
+        </fieldset>
+        </form>
+    
+</body>
+</html>
+
+

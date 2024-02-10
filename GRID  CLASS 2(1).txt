@@ -1,0 +1,301 @@
+GRID 
+
+Two dimensional layout 
+
+Grid Container---------------Grid items-----------Grid line
+
+Full of Row Selection-------------(Grid track row)
+
+Full of Column Selection-----------(Grid Track column)
+
+Inside Grid container------------Grid cell called Grid area
+<------------------------------------------------------------------------------>
+   <div class="container">
+       <div class="grid-item box-1">Box-1</div>
+       <div class="grid-item box-2">Box-2</div>
+       <div class="grid-item box-3 ">Box-3</div>
+       <div class="grid-item box-4">Box-4</div>
+       <div class="grid-item box-5">Box-5</div>
+       <div class="grid-item box-6">Box-6</div>
+       <div class="grid-item box-7">Box-7</div>
+       <div class="grid-item Box-8">Box-8</div>
+       <div class="grid-item box-9">Box-9</div>
+     </div>
+
+<----------------------------------------------------------------->
+*{
+    /* margin:10px; */
+    padding:0;
+    font-family: 'Noto';
+}
+
+.container{
+    border:5px solid black;
+    margin:20px;
+   
+}
+
+.grid-item{
+    color:red;
+    font-size: 20p;
+    padding:16px;
+    text-align:center;
+}
+.box-1{background-color: aqua;}
+.box-2{background-color: red;}
+.box-3{background-color: yellow;}
+.box-4{background-color: blue;}
+.box-5{background-color: violet;}
+.box-6{background-color: orange;}
+.box-7{background-color: orangered;}
+.box-8{background-color: green;}
+.box-9{background-color: darksalmon;}
+<--------------------------------------------------------------->
+
+
+Grid Container Properties
+
+1 display
+
+.container{
+    /* display:grid;  change to block level element*/
+    /* display:inline-grid; change according to the content width */
+}
+
+2 grid-template-columns
+
+.container{
+    display:grid;
+    grid-template-columns: 100px 200px 300px 200px;
+    grid-template-columns: 100px,200px,200px,200px;
+    /* grid-template-columns: repeat(3,200px);  parameter value */
+    grid-template-columns: repeat(3,200px) 300px;
+    /* grid-template-columns: 1fr 2fr 3fr 2fr;  multiple times of fractional value */
+    grid-template-columns: repeat(3,minmax(300px,1fr));
+}
+
+3 grid-template-rows
+
+.container{
+    display:grid;
+    height:600px;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows:100px; */
+    grid-template-rows:100px 200px 200px;
+    /* grid-template-rows: repeat(9,300px);
+    grid-template-rows:repeat(9,minmax(300px,1fr)); */
+    grid-template-rows: repeat(3,2fr);
+
+}
+4 grid-template
+
+.container{
+    display: grid;
+    height:600px;
+    /* grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr); */
+    grid-template: repeat(3,1fr) / repeat(4,1fr);
+}
+5 column-gap
+6 row-gap
+7 gap
+
+.container{
+    display: grid;
+    height:600px;
+    grid-template: repeat(3,1fr) / repeat(3,1fr);
+    /* column-gap: 20px;
+    row-gap: 40px; */
+    /* gap: 40px 20px; row column */  
+    gap:20px;
+}
+
+8 justify-items
+
+.container{
+    display: grid;
+    height:600px;
+    grid-template: repeat(3,1fr) / repeat(3,1fr);
+   justify-items: stretch;
+   justify-items: start;
+   justify-items: center;
+   justify-items: end;
+}
+
+9 align-items
+.container{
+    display: grid;
+    height:600px;
+    grid-template: repeat(3,1fr) / repeat(3,1fr);
+   justify-items: center;
+   align-items: stretch;
+   align-items: start;
+   align-items: center;
+   align-items: end;
+ 
+}
+
+10 place-items
+
+.container{
+    display: grid;
+    height:600px;
+    grid-template: repeat(3,1fr) / repeat(3,1fr);
+    /* align-item, justify-item */
+    /* place-items: center start; */
+    place-items: center;
+ 
+}
+
+
+11 justify-content
+.container{
+    display: grid;
+    height:auto;
+    grid-template: repeat(3,300px) / repeat(3,300px);
+    justify-content: start;
+    justify-content: center;
+    justify-content: end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+
+   
+ 
+}
+
+12 align-content
+.container{
+    display: grid;
+    height:800px;
+    grid-template: repeat(3,200px) / repeat(3,200px);
+    align-content: start;
+    align-content:center;
+    align-content: end;
+    align-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly;
+    
+  }
+
+13 place-content
+
+.container{
+    display: grid;
+    height:800px;
+    grid-template: repeat(3,200px) / repeat(3,200px);
+    /* align-content  justify-content */
+    place-content: end center;
+    place-content: center;
+
+}
+14 grid-auto-columns
+15 grid auto rows
+16 grid-auto-flow
+
+rows
+columns 
+
+.container{
+    display: grid;
+    grid-auto-flow:row;
+    /* grid-auto-flow: column; */
+    grid-auto-rows: 100px;
+    grid-auto-flow:column;
+    grid-auto-columns: 100px;
+}
+
+
+
+Grid-item-Properties
+
+1 grid-column-start
+
+2 grid-column-end
+
+3 grid-column
+
+.container{
+    display: grid;
+    grid-template: repeat(3,300px)/repeat(3,300px);
+}
+
+.box-1{
+    grid-column-start:1;
+    grid-column-end: 3;
+    grid-column-end: span 3;
+    grid-column:1/span 3
+
+}
+
+<--------------------------------------------------------->
+4 grid-row-start
+
+5 grid-row-end
+
+6 grid-row
+
+
+.box-1{
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    /* grid-row-end:span 4; */
+    grid-row:1/span 3;
+
+}
+
+shorthand Property
+
+.box-1{
+    grid-column: 1/span 2;
+    grid-row: 1/span 2;
+}
+
+<-------------------------------------------------------->
+7 justify-self
+
+8 align-self
+
+.box-2{
+    justify-self: stretch;
+    justify-self: start;
+    justify-self: end;
+    justify-self:center;
+/* ---------------------------- */
+    align-self:self-start;
+    align-self:start;
+    align-self:center;
+    align-self:end;
+}
+-----------------------------------------------
+
+9 plae-self
+
+/* place-self:align-self vertical justify-self horizontal */
+
+.box-3{
+    place-self: start end;
+}
+--------------------------------------------------------------------------------------------
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height:600px;
+    align-content: stretch;
+    align-content: center;
+    align-content: space-around;
+    
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: space-evenly;
+    align-content: space-between;
+
+
+}
+
+
+<------------------------------------------------------------------------->
+Website Developing
+

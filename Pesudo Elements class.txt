@@ -1,0 +1,182 @@
+Pesudo Elements
+Float
+Outline 
+Icon 
+List Icon
+
+
+
+Pesudo Elements
+
+The Element is defined as Keyword which is added to selector that apply style for the specific part of the selector elements
+
+First letter
+First line
+Before 
+After
+Selection 
+Marker 
+
+Pseudo Class
+nth child
+
+.main p::first-letter{
+            font-style: italic;
+            font-size:50px;
+            color:red;
+          
+
+        }
+        .main p::first-line{
+            font-style: italic;
+            font-weight: bold;
+            font-size: 20px;
+            color:blue;
+        }
+        .main h1::before{
+            content:'Today Topic-';
+            color:darkorchid;
+
+        }
+        .main h1::after{
+            content:'(specific part)';
+            color:darkorchid;
+
+        }
+        /* ::marker{
+            color:darkorange;
+        } */
+
+
+     .main p::selection{
+            color:red;
+            background-color: yellow;;
+         }
+
+        .main p:nth-child(5){   (Pseudo Class)
+            background-color: blueviolet;
+            color:white;
+        } 
+
+Float  used to fill the empty spaces 
+left 
+right
+
+        /* .main p{
+            width:30%;
+            float:right;
+            float:left;
+         } */
+
+
+Outline 
+
+.main{
+            border:2px solid black;
+            width:500px;
+            height:100px;
+            margin:50px;
+            outline-style:solid;
+            outline-color:red;
+            outline-width:20px;
+            outline-offset: 30px;
+            padding:20px;
+            text-align: center;
+            
+
+        }
+
+   <div class="main">
+      <h1>Outline Property</h1>
+
+    </div>
+
+ICON
+
+
+Sign up--------->Icon----------->Open Source Icon----------->Select Any Icon----------->Copy html code
+
+Content Delivery Network(cdn)
+
+font awesome cdn--------->Font awesome Libraries-------------copy first link(all.min.css)------paste below title
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+.fa-google::after{
+                 content:'GOOGLE';
+                 /* text-align:center; */
+                 /* letter-spacing: 20px; */
+                 /* margin:300px; */
+                 position:relative;
+                 left:190%;
+                 font-family:'Times New Roman', Times, serif;
+                 /* text-decoration: underline; */
+        }
+
+
+
+        .fa-google{
+            font-size:40px;
+            color: red;
+        }
+
+        h1{
+            display:inline-block;
+            position:relative;
+            left:10%;
+            font-size:40px;
+            color:blueviolet;
+            
+
+        }
+
+<body>
+    <div>
+    <i class="fa-brands fa-google"></i>
+    <h1>ICONS</h1>
+    </div>
+</body>
+
+LIST ICONS  
+
+To add the content with list li*6{content} give enter
+
+ <ul class="fa-ul">
+        <li>   <span class="fa-li"><i class="fa-solid fa-cart-shopping">   </i>   </span>Ordered List 1</li>
+        <li><span class="fa-li"><i class="fa-solid fa-cart-shopping"></i></span>Ordered List 2</li>
+        <li><span class="fa-li"><i class="fa-solid fa-cart-shopping"></i></span>Ordered List 3</li>
+        <li><span class="fa-li"><i class="fa-solid fa-cart-shopping"></i></span>Ordered List 4</li>
+        <li><span class="fa-li"><i class="fa-solid fa-cart-shopping"></i></span>Ordered List 5</li>
+        <li><span class="fa-li"><i class="fa-solid fa-cart-shopping"></i></span>Ordered List 6</li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

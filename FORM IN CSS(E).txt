@@ -1,0 +1,145 @@
+FORM IN CSS
+
+Image Pixel range 1920*1080
+
+To change the color of the radio button
+
+property syntax:
+
+.radio input{
+accent-color:yellow;
+}
+
+<-------------------------------------------------------------->
+
+
+<body>
+    <div class="signup">
+        <form>
+            <h3>Sign up</h3>
+            <div class="input">
+                <label class="text" for="fname">FIRSTNAME:</label>
+                <input type="text" name="fname" id="fname">
+            </div>
+            <div class="input">
+                <label class="text" for="lname">LASTNAME:</label>
+                <input type="text" name="lname" id="lname">
+            </div>
+            <div class="input">
+                <label class="text" for="email">EMAIL:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="input">
+                <label class="text" for="pword">PASSWORD:</label>
+                <input type="password" name="pword" id="pword">
+            </div>
+            <div class="radio">
+                <label for="gender">GENDER:</label>
+                <input type="radio" name="gender" id="male">MALE
+                <input type="radio" name="gender" id="female">FEMALE 
+                <input type="radio" name="gender" id="other">OTHER
+            </diV>
+            <div class="btn">
+                <button type="reset">RESET</button>
+            </div>
+            <div class="btn">
+                <button type="submit">SUBMIT</button>
+            </div>
+
+<--------------------------------------------------------------------------------------->
+
+CSS SOURCE CODE
+
+
+body{
+    background-image: url(log.jpg);
+    color:blue;
+}
+
+.signup{
+    background: linear-gradient(white,violet);
+  /* background: rgb(173, 255, 47,.5); */
+    width:500px;
+    margin-top: 200px;
+    margin-left:480px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding:10px;
+}
+h3{
+    color:darkorange;
+    text-align: center;
+}
+.signup .text{
+    display:block;
+}
+
+.input input{
+    width:100%;
+    font-size:20px;
+    border:3px solid blueviolet;
+    box-sizing:border-box;
+    padding:5px 5px;
+    margin:5px 5px 5px 5px;
+}
+input:focus{
+    background-color: aqua;
+}
+
+button{
+    background-color: blue;
+    color:white;
+    border-style:inset;
+    border:5px solid chartreuse;
+    margin-top:20px;
+    padding:10px 10px;
+    border-radius:4px;
+}
+.btn{
+    text-align: center;
+    display: inline;
+    /* margin-left:40px; */
+    position:relative;
+    left:35%;
+}
+
+.radio input{
+        accent-color:pink;
+        transform:scale(1.5);
+}
+
+<-------------------------------------------------------->
+
+Box-sizing - The property is used to specify height and width of an element
+
+1 border-box
+2 content-box
+
+
+.main{
+            background-image: url(log.jpg);
+            background-color: aqua;
+            width:500px;
+            height:500px;
+            border:5px solid black;
+            color:red;
+            /* padding:20px; */
+            font-weight: bold;
+            /* box-sizing: border-box; */
+            /* box-sizing: content-box; */
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

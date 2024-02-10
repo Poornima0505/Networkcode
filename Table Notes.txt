@@ -1,0 +1,71 @@
+Non Sematic Tag
+
+Span  - Highlighting the specific Content (color , style etc..)
+
+Div - Division Tag Which Occupies whole width of the Webpage 
+
+<meta>
+Additional information about webpage to other client and Search Engine optimization(SEO)
+
+The process of improving website to increase its visibility in Google or other search engines.
+
+SEO - The process to optimize content relevance and wepages can easily searchable.
+
+UTF-8   
+It covers all characters and symbols
+
+<meta name "viewport">
+eg: mobile screen width 640px   webpage might rendered(providing) with virtual viewport  as 980px shrunk(compressing) to 640px.
+
+content (width-device)   - page width to follow the width of the device 
+
+intial-scale 1.0 - set the intial zoom level  page loaded by the browser
+
+Table
+Row  - Horizontal 
+Column - Vertical
+
+<thead> - Heading
+<tbody> - Content of the Table
+<tfoot> - Final content of the Table (Total)
+
+Structure of the Table
+
+<table border = 2px> - The main Table
+<tr> - Table  Row 
+<th>-  Table Heading
+<td> - Table Data
+</tr> - Closing tag of Table row
+</table> - Closing Tag
+
+Row span  - cell span over multiple rows
+
+colspan  -   cell span over multiple column
+
+cellpadding - The space between border and content
+
+cellspacing - The space between one cell and another cell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

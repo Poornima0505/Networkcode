@@ -1,0 +1,265 @@
+Border Property
+
+The Property which is used to apply the styles for the borders
+
+1.Border-style
+2.Border-width
+3.Border-color
+4.Border-radius
+
+1.Border-Style
+
+Different types of Style used in border
+1. Solid
+2.Dashed
+3.Dotted
+4.Inset
+5.Outset
+6.None
+
+h1{
+    /* border-style:solid; */
+    border-style: none;
+}
+
+p{
+    border-style:dashed;
+}
+
+.head1{
+    border-style:dotted;
+}
+
+.para1{
+    border-style:double;
+}
+
+.head2{
+    border-style: inset;
+}
+.para2{
+    border-style: outset;
+}
+
+
+Border  :   Top Right Bottom left(TRBL)
+
+.classname{
+    border-top:solid;
+    border-right: outset;
+    border-bottom: dashed;
+    border-left:dotted;
+}
+
+or
+
+Element{
+    border-top:solid;
+    border-right: outset;
+    border-bottom: dashed;
+    border-left:dotted;
+}
+
+Method1:Single Line command
+Top Right Bottom Left
+
+Selector{
+    border-style: solid dashed dotted inset;
+    }
+
+eg : .head1{
+    border-style: solid dashed dotted inset;
+                }
+
+Method2:Single Line Command
+
+border-style :TopBottom  Rightleft;
+
+Selector{
+    border-style: solid dashed ;
+    }
+
+eg : .head1{
+    border-style: solid dashed;
+                }
+
+Method 3:
+border-style:solid; 
+
+2 Border-Width
+
+h1{
+    border-style:solid dashed;
+    border-width:5px;
+}
+
+h1{
+    border-style:solid dashed dotted inset;
+    border-width:5px 2px 5px 2px;
+}
+
+3. Border-color
+
+Applying color for the boder
+
+h1{
+    border-style:solid dashed dotted inset;
+    border-width:5px 8px 5px 8px;
+    border-color:red;
+}
+
+4.Border-radius
+
+Applying Rounded Border 
+
+h1{
+    border-style:solid dashed dotted inset;
+    border-width:5px 8px 5px 8px;
+    border-color:red;
+    border-radius: 100px 500px 100px 500px;
+}
+
+Margin & Padding
+
+Margin - Outside the border(External Space)
+
+Padding -  The space between border and Content.(Internal Space)
+
+Margin
+Example  Steps
+div{
+    background-color: aqua;
+    border:5px solid purple; 
+    margin-top:300px; 
+    margin-right:100px;
+    margin-bottom:300px;
+    margin-left:100px;
+    
+}
+
+
+div{
+    background-color: aqua;
+    border:5px solid purple; 
+    margin:300px 100px 300px 100px;
+    
+}
+
+
+div{
+    background-color: aqua;
+    border:5px solid purple; 
+    margin:300px 100px ;
+    
+}
+
+div{
+    background-color: aqua;
+    border:5px solid purple; 
+    margin:300px;
+    
+}
+
+Padding
+
+Example steps
+
+div{
+    background-color: aqua;
+    border:5px solid purple; 
+    margin-top:300px 100px 300px 100px;
+    padding:40px;
+}
+
+div{
+    background-color: aqua;
+    border:5px solid purple; 
+    margin-top:300px 100px 300px 100px;
+    padding:20px 30px 20px 30px;
+}
+
+div{
+    background-color: aqua;
+    border:5px solid purple; 
+    margin:300px;
+    padding-top:20px;
+    padding-right:30px;
+    padding-bottom:40px;
+    padding-left:30px;
+}
+
+
+
+div{
+    background-color: aqua;
+    border:5px solid purple; 
+    margin:300px;
+    padding:60px  100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

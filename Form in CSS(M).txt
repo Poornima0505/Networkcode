@@ -1,0 +1,138 @@
+Form in CSS
+
+Image Pixel Range 1920*1080 
+
+To change the color for radio button 
+
+property syntax :
+
+.radio input{
+    accent-color: yellow;
+}
+
+<---------------------------------------------------->
+HTML SOURCE CODE 
+
+<body>
+    <div class="signup">
+       <form>
+        <h3>SIGN UP</h3>
+        <div class="box">
+            <label class="text" for="fname">Firstname:</label>
+            <input type="text" name="fname" id="fname">
+       </div>
+       <div class="box">
+        <label class="text" for="lname">Lastname:</label>
+        <input type="text" name="lname" id="lname">
+       </div>
+       <div class="box">
+        <label class="text" for="email">Email:</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div class="box">
+        <label class="text" for="pword">Password:</label>
+        <input type="password" name="pword" id="pword">
+      </div>
+      <div class="radio">
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male">Male
+        <input type="radio" name="gender" id="female">female
+        <input type="radio" name="gender" id="other">other
+      </div>
+      <div class="btn">
+        <button type="submit">SUBMIT</button>
+      </div>
+      <div class="btn">
+        <button type="reset">RESET</button>
+      </div>
+       </form>
+    </div>
+</body>
+
+<------------------------------------------------------------------------------------------>
+CSS CODE
+
+body{
+    background-image: url(wallpaper.jpg);
+    color:blue;
+}
+
+.signup{
+    background-color: rgba(255, 0, 251, 0.5);
+    width:510px;
+    margin-top:200px;
+    margin-left:470px;
+    font-size:20px;
+    border-radius:10px;
+    padding:10px;
+    
+
+}
+h3{
+    color:yellow;
+    text-align:center;
+}
+
+.signup .text {
+    display:block;
+}
+
+.box input{
+       width:100%;
+       font-size: 20px;
+       border:3px solid blueviolet;
+       border-radius: 5px;
+       box-sizing: border-box;
+       padding:5px 5px;
+       margin:5px 5px 5px 5px;
+}
+input:focus{
+    background-color: coral;
+}
+/* input:hover{
+    background-color: coral;
+
+} */
+
+
+.btn{
+    /* text-align:center; */
+    display: inline;
+    position:relative;
+    left:35%;
+}
+
+button{
+    background-color: blue;
+    color:white;
+    border-style: inset;
+    border:5px solid aqua;
+    margin-top:20px;
+    padding:10px 10px;
+    border-radius: 4px;
+}
+
+.radio input{
+    accent-color: yellow;
+    transform:scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

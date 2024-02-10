@@ -1,0 +1,82 @@
+div{
+            border:2px solid black;
+            width:500px;
+        
+            padding:20px;
+
+        }
+        img:hover{
+            
+            opacity: 0.6;
+        }
+
+
+<h1></h1>
+<img>
+<p></p>
+
+
+List type 
+
+
+List-style-type
+
+
+ul li{
+                list-style-type: disc;
+                list-style-type: decimal;
+                list-style-type: square;
+                list-style-type: circle;
+                list-style-type: decimal-leading-zero;
+                list-style-type: upper-roman;
+                list-style-type: lower-roman;
+                list-style-type: upper-alpha;
+                list-style-type: lower-greek;
+
+            }
+
+<h1></h1>
+<ul><li></li></ul>
+
+DISPLAY PROPERTY
+BLOCK
+
+h1{
+        background-color: aqua;
+      }
+      b{
+        background-color: red;
+    
+        display: block;
+        height:30px;
+        width:320px;
+INLINE-BLOCK 
+        
+      }
+h1{
+        background-color: aqua;
+      }
+      b{
+        background-color: red;
+    
+        display:inline-block;
+        height:30px;
+        width:320px;
+
+        
+      }
+INLINE
+           
+ul li{
+        display: inline;
+        background-color: aqua;
+        margin-left:10px;
+        padding:10px;
+      }
+
+<h1></h1>
+<p><b></b></p>
+
+
+TABLE
+

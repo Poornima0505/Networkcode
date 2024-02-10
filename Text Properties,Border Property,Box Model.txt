@@ -1,0 +1,262 @@
+Text Properties
+
+
+The Properties which is used to give multiple styles for the text
+
+1.Text color
+ h1{
+            color:#ff0055;
+        }
+2.Text Alignment
+
+center
+right
+left
+
+ h1{
+            color:#ff0055;
+            /* text-align:center; */
+            /* text-align:right; */
+            /* text-align:left; */
+        }
+3.Text Decoration
+
+overline  - (horizontal line above the content)
+underline -  (horizontal line below the content)
+line through
+none
+
+
+    h1{
+            color:#ff0055;
+            text-align:center; 
+          
+            /* text-decoration: overline; */
+            /* text-decoration: underline; */
+            text-decoration: underline;
+        }
+        nav a{
+            text-decoration: none;
+        }
+
+
+4.Text Transformation 
+
+uppercase 
+lowercase 
+capitalize
+
+    h1{
+            color:#ff0055;
+            text-align:center; 
+            text-decoration: underline;
+            /* text-transform: lowercase; */
+            text-transform: uppercase;
+
+        }
+        nav a{
+            text-decoration: none;
+        }
+        p{
+            color:blue;
+            text-transform:capitalize;
+        }
+
+
+5.Text Spacing
+
+Text indent  -(space before the content)
+Letter Spacing - (space will be provided for every letter)
+Line height - (Decide the gab between content)
+word spacing
+
+p{
+            text-indent: 60px;
+            letter-spacing: 5px;
+            line-height: 0.9;
+            word-spacing: 20px;
+            color:blue;
+            text-transform:capitalize;
+        }
+
+6.Text Shadow
+
+Horizontal 
+vertical 
+color
+
+       h1{
+            /* color:#ff0055; 
+            text-align:center; 
+            text-decoration: underline;
+            /* text-transform: lowercase; */
+           /* text-transform: uppercase; */
+            text-shadow: 3px 3px blue;
+
+        }
+
+
+BORDER PROPERTY 
+
+The property which is used to apply the style for the borders.
+
+1.Border-style
+2.Border-width
+3.Border-color
+4.Border-radius
+
+1.Border-style
+Different types of style used in border
+
+Solid
+Dashed
+Dotted
+Inset 
+Outset
+None
+
+Border :  Top right bottom left(TRBL)
+
+                TopBottom   Rightleft(TB   RL)
+
+Method1
+    .h1,.h2,.h3,.h4,.h5{
+        border-top:solid;
+        border-right:dotted;
+        border-bottom:dashed;
+        border-left:inset;
+     }
+
+Method 2
+
+.h1,.h2,.h3,.h4,.h5{
+        /* border-top:solid;
+        border-right:dotted;
+        border-bottom:dashed;
+        border-left:inset; */
+        border-style: solid dotted dashed inset;
+     }
+
+Method
+
+   .h1,.h2{
+        /* border-top:solid;
+        border-right:dotted;
+        border-bottom:dashed;
+        border-left:inset; */
+        border-style: solid  dashed ;
+     }
+
+
+
+
+
+    .h1,.h2,{
+      
+        border-style: solid;
+     }
+
+2.Border-width
+
+  .h1,.h2,{
+      
+        border-style: solid;
+        border-width: 5px;
+     }
+
+3.Border-color
+
+   .h1,.h2,{
+      
+        border-style: solid dotted dashed outset;
+        border-width: 5px  2px 5px 2px;
+        border-color: red yellow yellowgreen blue;
+        color:blue;
+     }
+
+
+4.Border Radius
+
+Applying  Rounded Border
+
+        border-style: solid dotted dashed outset;
+        border-width: 5px  2px 5px 2px;
+        border-color: red yellow yellowgreen blue;
+        color:blue;
+        /* border-radius: 100px 100px 100px 100px; */
+        /* border-radius: 100px 100px; */
+        border-radius: 100px;  
+
+
+Box Model
+
+Margin ------->Outside the border(External Space)
+
+            border:2px dashed black;
+            background-color: blueviolet;
+            /* margin:50px 50px 50px 50px; */
+            /* margin-top:50px;
+            margin-right:50px;
+            margin-bottom:50px;
+            margin-left:50px; */
+            /* margin:50px 50px; */
+            margin:50px;
+
+Border-------->The space bet padding and margin called Border
+
+Padding------->The Space  bet content and border called Padding(Internal Space)
+
+  border:2px dashed black;
+            background-color: blueviolet;
+            margin:50px;
+            /* padding:20px; */
+            /* padding:20px 30px 20px 30px; */
+            /* padding-top:30px;
+            padding-right:20px;
+            padding-bottom:30px;
+            padding-left:20px; */
+            padding:30px 40px;
+
+
+Content- Text Area
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

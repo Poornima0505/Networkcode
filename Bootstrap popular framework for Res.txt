@@ -1,0 +1,59 @@
+Bootstrap popular framework for Responsie web application
+
+It is mainly for Developing Responsive Mobile first websites.
+
+Bootstrap was developed by Mark otto and Jacob Thronton at Twitter
+
+Different Types of Screens 
+
+Extra Small(xs)------->     <576px 
+
+Small Screen (sm)----->   >=576px
+
+Medium Screen(md)----->   >=760px
+
+Large Screen(lg)   ------->     >=992px
+
+Extra large(xl)---------->   >=1200px
+
+
+Installtion of Bootstrap 
+
+Online
+
+Offline
+
+1 container
+
+2 container-fluid 
+
+3 container border border-5
+
+Reference code
+
+<div class="container border border-5">
+    <h1 class="container-fluid">Bootstrap</h1>
+    <p class="container">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, maiores aperiam earum, ratione sit, voluptatibus praesentium tenetur dolore neque itaque illum minima expedita dolores laudantium quo repellat voluptate ea labore? Quod earum fugit expedita ipsum saepe alias quisquam vel, aliquam, fugiat, at eos dolor reprehenderit.</p>
+
+GRID (12 COLUMNS )
+Mobile first grid to build layout  of all shapes and twelve column system
+
+A series of containers,column row to layout align content.
+
+  <div class="row">
+        <div class="col-4  column ">Name</div>
+        <div class="col-2  column">PH.NO</div>
+        <div class="col-4  column">EMAIL</div>
+        <div class="col-2  column">DEPARTMENT</div>
+       </div>
+
+  <div class="row">
+        <div class="col-sm-4  column ">Name</div>
+        <div class="col-lg-2  column">PH.NO</div>
+        <div class="col-md-4  column">EMAIL</div>
+        <div class="col-xs-2  column">DEPARTMENT</div>
+       </div>
+
+
+
+

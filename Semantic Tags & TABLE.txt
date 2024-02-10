@@ -1,0 +1,209 @@
+Semantic Tags
+
+Explaning meaningful content to browser and developer 
+
+<Header>
+<Nav>
+<section>
+<article>
+<fig caption>  - caption of the image 
+<summary>
+<details>  -  <details><summary></summary><p></p></details>
+<footer>   
+
+Entities 
+
+Reserved Characters
+
+Start with & and end with ;
+&nbsp;   - space
+
+&copy;  -  copyright
+
+Non Semantic Tag
+
+<div>   - Division Tag
+<span> - Highlight the specific content
+
+
+TABLE
+
+To Represent Tabular Data 
+
+Vertical Data - Column
+
+Horizontal Data - Row 
+
+<caption>Tabular Data</caption>
+
+Structure of Table 
+<table>
+<thead>
+<tr>      -   Table Row
+<th></th>  -  Table head
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>   Content of the body
+<tr>
+<td></td>   - Table data aligned in  default rowwise.
+<td></td>
+<td></td>
+</tr>
+</tbody>
+<tfoot>
+<h1>Total</h1>
+GST
+PRICE
+AMOUNT
+</tfoot>
+</table>
+
+
+colspan   - used to merge cells in horizontally
+
+rowspan  - used to merge cells in vertically
+
+cellpadding - space between table data and table cell border
+cellpadding="20px"
+cellspacing - space between one cell and another cell.
+cellspacing="5px"
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+meta  - data about data(webpage)
+
+charset - character encoding  
+
+Decode  - Computer language ------->  Human readable format
+
+Encode -   Text Format -------->Computer Language(Machine Language)
+
+
+UTF-8     ---->It covers all characters and symbols(more characters with code number)   UTF(Unicode Transformation format)
+
+meta name ="viewport"   
+
+Eg Mobile screen width 640px webpage might rendered with viewport as 980px 
+
+It is possile to shrunk using viewport pixels     840px-------640px  (mobile screen)
+
+ content="width=device-width----->Page width to follow the width of the device 
+
+
+initial-scale=1.0   ----->   set the initial zoom level page first loaded by the browser
+
+<meta>   Additional information about page to other client and search engine optimization 
+
+
+TABLE  CODE
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2px" cellpadding="20px" cellspacing="5px">
+        <thead>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Roll no</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sathesh</td>
+                <td>CSE</td>
+                <td>1230560</td>
+            </tr>
+            <tr>
+                <td>Gokulraj</td>
+                <td>ECE</td>
+                <td>1230561</td>
+            </tr>
+            <tr>
+                <td>Karthika</td>
+                <td rowspan="4">IT</td>
+                <td>1230562</td>
+            </tr>
+            <tr>
+                <td>Pavithra</td>
+               
+                <td>1230562</td>
+            </tr>
+            <tr>
+                <td>Selvi</td>
+                
+                <td>1230562</td>
+            </tr>
+            <tr>
+                <td>Aravind</td>
+               
+                <td>1230562</td>
+            </tr>
+                
+        </tbody>
+        <tfoot>
+            <th colspan="3">Total No of students:3</th>
+        </tfoot>
+    </table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

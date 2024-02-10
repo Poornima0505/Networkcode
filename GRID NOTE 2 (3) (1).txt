@@ -1,0 +1,224 @@
+
+GRID - Two dimensional layout
+
+first row and  column connected to last row and column
+
+Grid container----------------Grid items-------------Grid line
+
+Grid Track Row--------------Grid  Track column
+
+Inside Grid Container------------Grid-cell(Grid area)
+
+Grid Container Properties
+
+display
+
+inline-grid
+
+.container{
+    /* display: grid;  change to block level element*/
+    /* display:inline-grid;  change according to the content width*/
+}
+
+
+fr - fractional unit occupy remaining spaces inside the container.
+
+1fr = 25%
+grid-template-columns
+
+.container{
+   display: grid;
+   grid-template-columns: 100px 200px 300px 100px;
+   grid-template-columns: repeat(3,200px);
+   grid-template-columns: repeat(3,200px) 300px;
+   grid-template-columns: 1fr 1fr 2fr 1fr;
+   grid-template-columns: 300px 200px 1fr;
+   grid-template-columns: repeat(3,minmax(300px,1fr));
+   }
+
+grid-template-row
+
+.container{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows:repeat(4,200px);
+   grid-template-rows: repeat(4,2fr);
+   grid-template-rows: repeat(4,minmax(200px,1fr));
+   }
+
+
+shorthand property(grid-template)
+
+.container{
+   display: grid;
+   /* grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(4,200px); */
+   grid-template:repeat(4,200px)/repeat(3,1fr);
+   
+   }
+
+column gap
+
+row gap
+
+shorthand property(gap)
+
+.container{
+   display: grid;
+   /* grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(4,200px); */
+   /* grid-template:repeat(4,200px)/repeat(3,1fr);  row/column */
+   /* column-gap: 20px;
+   row-gap: 40px; */
+   /* gap:40px 20px;  row column */
+   
+   }
+
+
+justify-items
+
+.container{
+   display: grid;
+   grid-template:repeat(3,200px)/repeat(4,1fr);
+   height:600px;
+   justify-items: stretch;
+   /* justify-items: start;
+   justify-items: center;
+   justify-items: end; */
+
+}
+
+align-items
+
+.container{
+   display: grid;
+   grid-template:repeat(3,200px)/repeat(4,1fr);
+   height:600px;
+   justify-items: center;
+   align-items: stretch;
+   align-items: start;
+   align-items: center;
+   align-items: end;
+   
+}
+
+
+
+place items(shorthand Property)
+
+.container{
+   display: grid;
+   grid-template:repeat(3,200px)/repeat(4,1fr);
+   height:600px;
+   /* justify-items: center;
+   align-items: start; */
+   /* place-items: start center;  align-item justify-item */
+   /* place-items: center;  same value for both property */
+   
+   }
+
+justify-content
+
+.container{
+   display: grid;
+   grid-template:repeat(3,200px)/repeat(3,300px);
+   height:auto;
+   justify-content: stretch;
+   justify-content: start;
+   justify-content: center;
+   justify-content: end;
+   justify-content: space-around;
+   justify-content: space-between;
+   justify-content: space-evenly;
+   
+   
+}
+
+
+align-content
+
+.container{
+   display: grid;
+   grid-template:repeat(3,200px)/repeat(3,300px);
+   height:800px;
+   align-content: start;
+   align-content: center;
+   align-content: end;
+   align-content: space-around;
+   align-content: space-between;
+   align-content: space-evenly;
+   
+   
+}
+
+
+place-content(shorthand property)
+
+.container{
+   display: grid;
+   grid-template:repeat(3,200px)/repeat(3,300px);
+   height:800px;
+   /* justify-content: start;
+   align-content: space-between; */
+   place-content: space-between start;
+   place-content: center;
+}
+
+Grid item Properties
+
+grid-column-start
+
+grid-column-end
+
+grid-column
+
+grid-row-start
+
+grid-row-end
+
+grid-row
+
+justify-self
+
+align-self
+
+place-self(shorthand property)
+
+grid-area
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

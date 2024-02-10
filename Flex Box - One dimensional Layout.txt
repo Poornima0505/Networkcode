@@ -1,0 +1,411 @@
+Flex Box - One dimensional Layout
+
+Mainly used for efficient layout and align,distributing Space
+
+Flex box is alternative property for all css properties like display Properties
+
+Advantages 
+
+Vertical centering
+
+Change the order of element without changing its order
+
+<---------------------------------------------------------------------------------------------->
+
+*{
+    /* margin:10px; */
+    padding:0;
+    font-family: 'Noto';
+}
+
+.container{
+    border:5px solid black;
+   
+}
+
+.flex-item{
+    color:red;
+    font-size: 20p;
+    padding:16px;
+    text-align:center;
+}
+.item-1{background-color: aqua;}
+.item-2{background-color: red;}
+.item-3{background-color: yellow;}
+.item-4{background-color: blue;}
+.item-5{background-color: violet;}
+.item-6{background-color: orange;}
+.item-7{background-color: orangered;}
+.item-8{background-color: green;}
+.item-9{background-color: darksalmon;}
+<----------------------------------------------------------------------------------------------->
+
+.container{
+            display:flex;
+            width:100vw;
+            height:100vh;
+            justify-content: center;
+            align-items: center;
+        }
+     
+        .box{
+            background-color: darkorange;
+            width:100px;
+            height:100px;
+           
+        }
+----------------------------------------------------------------------------------------
+Flex box container Properties 
+display
+flex
+inline-flex
+flex-direction
+row
+row-reverse
+column
+column-reverse
+
+
+Flex item Properties
+
+order
+flex-grow
+flex-basis
+fles-shrink
+align-self
+-----------------------------------------------------------------------------------------
+
+
+Flex box container Properties
+
+display
+
+flex
+inline-flex
+
+flex-direction 
+
+row
+row-reverse
+column
+column-reverse
+flex-wrap
+flow
+column-gap
+row-gap
+gap
+justify-content
+align-items
+align-content
+
+
+<----------------------------------------->
+.container{
+    /* display:inline-flex; */
+    display:flex;
+    flex-direction:row;
+    flex-direction:row-reverse;
+    flex-direction:column;
+    flex-direction:column-reverse;
+}
+<---------------------------------------------------->
+flex-wrap
+
+.container{
+  
+    display:flex;
+    /* flex-direction:row;
+    flex-wrap: wrap;
+    flex-wrap:nowrap;
+    flex-wrap:wrap-reverse; */
+    /* column wrap */
+    height:400px;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    flex-wrap:wrap-reverse;
+}
+
+<-------------------------------------------------->
+
+flex-flow(Shorthand Property)
+
+.container{
+  
+    display:flex;
+    /* flex-diretion&flex-wrap */
+   /* flex-flow: row wrap; */
+   /* flex-flow:row-reverse wrap-reverse; */
+   /* column-flex-flow */
+   height:400px;
+   /* flex-flow:column wrap; */
+   flex-flow:column-reverse wrap-reverse;
+}
+
+<---------------------------------------------------------->
+column gap
+
+row gap
+
+gap
+
+.container{
+  
+    display:flex;
+    column-gap:20px;
+    row-gap:30px;
+    /* gap:20px 30px;  row column */
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+justify content 
+
+.container{
+   /* justify-content main axis alignment
+   row  -  xaxis      column - y axis */
+    display:flex;
+    /* flex-direction: row;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between; */
+    /* column */
+    flex-direction:column;
+    height:600px;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content:center;
+    justify-content: space-around;
+    justify-content: space-between;
+
+
+}
+
+align-items
+
+.container{
+
+    /* align-items  - cross axis
+    row - y axis
+    column - x axis*/
+
+    display:flex;
+    flex-direction: row;
+    height:600px;
+    align-items: stretch;
+    align-items: flex-start;
+    align-items: center;
+    /* align-items: baseline; (mainly used for font to come in sequence order) */
+   
+   
+
+}
+.item-1{
+    font-size: 40px;
+}
+
+---------------------------
+column
+
+.container{
+
+    /* align-items  - cross axis
+    row - y axis
+    column - x axis*/
+
+    display:flex;
+    flex-direction: column;
+    height:600px;
+    align-items: stretch;
+    /* align-items: flex-end; */
+    align-items: center;
+}
+.item-1{
+    font-size: 40px;
+}
+
+
+<------------------------------------------------------------->
+
+
+.container{
+
+
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    height:600px;
+    
+   
+    /* align-content: stretch;
+    align-content: flex-start;
+    align-content:flex-end; */
+    align-items: center;
+     
+
+}
+  
+
+align-content
+
+.container{
+
+
+
+    display:flex;
+    flex-direction: row;
+  
+    flex-wrap: wrap;
+    height:600px;
+    
+   
+    /* align-content: stretch;
+    align-content: flex-start;
+    align-content:flex-end; */
+    align-content: space-around;
+    align-content: space-between;
+    
+     
+
+}
+
+Flex items Properties
+
+order
+
+.container{
+ display:flex;
+}
+
+/* .item-2{order:1;}
+.item-1{order:2;}
+.item-3{order:4;}
+.item-4{order:3;}
+.item-6{order:6;}
+.item-5{order:5;}
+.item-7{order:8;}
+.item-8{order:7;}
+.item-9{order:9;} */
+
+/* .item-2{order:1;}  compare first arrived
+.item-1{order:2;}
+.item-3{order:4;}
+.item-4{order:3;}
+.item-6{order:1;}
+.item-5{order:5;}
+.item-7{order:8;}
+.item-8{order:7;}
+.item-9{order:9;}  */
+
+flex-grow
+
+.container{
+ display:flex;
+}
+
+/* .item-1{
+    flex-grow: 1;
+} */
+
+/* .item-5{
+    flex-grow:1;
+} */
+
+/* .flex-item{  (common for all)
+    flex-grow: 2;
+} */
+
+.flex-item{  (default)
+flex-grow:0;
+}
+
+flex-shrink
+
+.container{
+ display:flex;
+}
+
+/* .flex-item{
+    flex-shrink:1;
+} */
+
+/* .flex-item{
+    flex-shrink:1;
+} */
+
+.flex-item{
+    width:150px;
+}
+.item-6{
+    flex-shrink: 1;
+}
+
+flex-basis
+
+.flex-item{  
+    /* width:150px;  instead of width */
+    /* flex-basis:600px; */
+    /* flex-grow: 1; */
+}
+
+flex
+
+/* flex- flex-grow flex-shrink flex-basis */
+/* flex- flex-grow */
+/* flex- flex-grow  flex-basis */
+
+.item-2{
+    /* flex:1 1 200px; */
+    /* flex:1; */
+    flex:0 100px;
+}
+
+align-self
+
+.container{
+ display:flex;
+ height:500px;
+ 
+ align-items: stretch;
+ 
+}
+.item-5{
+    /* align-self: auto;  default*/
+}
+
+.item-3{
+    align-self:flex-start;
+}
+.item-7{
+    align-self: flex-end;
+}
+.item-8{
+    align-self: center;
+}
+
+<------------------------------------------------------------------->
+
+column wise
+.container{
+ display:flex;
+ height:500px;
+ flex-direction: column;
+ align-items: stretch;
+ 
+}
+.item-5{
+    /* align-self: auto;  default*/
+}
+
+.item-3{
+    align-self:flex-start;
+}
+.item-7{
+    align-self: flex-end;
+}
+.item-8{
+    align-self: center;
+}

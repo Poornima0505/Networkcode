@@ -1,0 +1,82 @@
+Table in CSS
+
+Table Borders
+collapse Table border<double line------------single line>
+Table width and height
+Horizontal Alignment
+Vertical Alignment
+Table padding
+Horiontal dividers
+Stripped Table - nth child
+Table Hover
+
+    table,th,tr,td {
+            border-bottom:2px solid blue; (Horizontal dividers)
+            border-collapse: collapse;
+            padding:10px;
+        }
+        table{
+            width:100%;
+            height:auto;
+        }
+        th,tr,td{
+            text-align:righ;
+            text-align:left;
+            text-align:center;
+        }
+        th,tr,td{
+            height:50px;
+            vertical-align: top;
+            vertical-align: bottom;
+            vertical-align: middle;
+        }
+        /* Stripped Table */
+        tr:nth-child(even):hover{
+            background-color: aqua;
+            color:red;
+        }
+        tr:nth-child(odd):hover{
+            background-color: orange;
+            color:white;
+        }
+        /* tr:nth-child(2n+1){
+            background-color: blueviolet;
+            color:white;
+        } */
+
+Box Shadow
+
+top-left
+bottom-right
+bottom-right-spread
+outer-spread
+inset
+
+   body{
+            background-color: black;
+         }
+         div{
+            width:100px;
+            height:100px;
+            border:2px solid yellow;
+            margin:25px;
+         }
+         #top-left{
+            box-shadow: -5px -5px #DFFF00;
+         }
+         #bottom-right{
+            box-shadow: 5px 5px 6px blueviolet;
+         }
+         #bottom-right-spread{
+            box-shadow: 5px 5px 5px 10px red;
+         }
+         #outer-spread{
+            box-shadow: 0px 0px 20px violet  ;
+          
+         }
+         #inset{
+            box-shadow:inset 0px 0px 40px blue;;
+         }
+
+
+

@@ -1,0 +1,52 @@
+GRID 
+
+Two dimensional layout 
+
+Grid Container---------------Grid items-----------Grid line
+
+Full of Row Selection-------------(Grid track row)
+
+Full of Column Selection-----------(Grid Track column)
+
+Inside Grid container------------Grid cell called Grid area
+
+Grid Container Properties
+
+1 display
+
+2 grid-template-columns
+3 grid-template-rows
+4 grid-template
+5 column-gap
+6 row-gap
+7 gap
+8 justify-items
+9 align-items
+10 place-items
+11 justify-content
+12 align-content
+13 place-content
+14 grid-auto-columns
+15 grid auto rows
+16 grid-auto-flow 
+
+
+Grid-item-Properties
+
+1 grid-column-start
+
+2 grid-column-end
+
+3 grid-column
+
+4 grid-row-start
+
+5 grid-row-end
+
+6 grid-row
+
+7 justify-self
+
+8 align-self
+
+9 plae-self

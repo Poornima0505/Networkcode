@@ -1,0 +1,258 @@
+Cascading Style sheet 
+
+Cascading -  Multiple css Rules apply to a html document
+
+selector {
+     
+                     property:value;
+              }
+
+h1{
+                color:red;
+
+     }
+
+Style -  Mandatory Attributes for every css rule.
+
+
+Three Types of Style sheet
+
+
+Inline  -  Using inside the html element
+
+Internal - Inside the head tag use style tag
+
+External - Adding Style Sheet
+
+Step1: To link filename.css into html
+
+Instructing the relationship between stylesheet and filename.css
+
+syntax: <link rel="stylesheet" href="filename.css">
+
+
+CSS Selectors
+
+Selectors Defines as combination of character and symbols that instruct the browser to apply specific css properties
+
+Simple Selectors
+The Selector with a single component
+
+1.Universal Selectors - global selector  - (*)asterisk
+
+* {
+    color:red;
+}
+
+2.Element Selector - html tag
+
+Select element with element name
+
+* {
+    color:red;
+}
+
+3.Group Selector
+
+Same style is implemented over Multiple Elements 
+
+syntax:
+
+h1,h2,p{
+
+                   property:value;
+              }
+
+4.Class Selector  - (.)
+
+The class Selector in css selects element that belong to particular class.
+
+syntax: 
+
+.classname{
+
+                        property:value;
+
+                   }
+.head{
+    color:red;
+}
+
+.head1{
+     font-size: 60px;
+     color:aqua;
+}
+ 
+5. ID Selector   (#)
+  
+The id Attribute is unique indentifier to use an id selector in css  
+
+
+syntax: #idname{
+
+                                 property:value;
+
+                             }
+
+/* (use only specific value in id) #head{
+    color:red;
+}
+
+Combinators
+
+6. Descendent  Selector(space)
+
+Main element-------->sub element will be styled
+
+syntax: div  p{
+
+                            property:value;
+
+                       }
+eg:
+div p{
+        font-size: 50px;
+        background-color: violet;
+}
+
+
+7.Child selector   (>)
+
+It is used to style child tag
+
+syntax : eg div  > p{
+
+                                        property:value;
+ 
+                                }
+eg:
+div  > p{
+        font-size: 50px;
+        background-color: violet;
+}
+
+8. Adjacent Sibling Selector   (+)
+
+It is used to style seconday element which is after the main element
+
+syntax: div + p{
+
+                             property:value;
+
+                         }
+
+eg:  div + p{
+     
+          background-color: blue;
+          color:white;
+}
+
+
+9. General Sibling Selector   (~)  Tidal Symbol
+
+After the main element  Last elements  styled  using General Selector.
+
+syntax div ~ p{
+                              property:value;
+
+                        }
+
+eg: div ~ p{
+     
+          background-color: blue;
+          color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

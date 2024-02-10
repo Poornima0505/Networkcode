@@ -1,0 +1,323 @@
+POSITION ABSOLUTE USING CONTENT
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+            position:relative;
+            padding:100px;
+            
+        }
+        div{
+            background-image: url(Nelsson_Mandela.jpg);
+            background-size: cover;
+            width:1000px;
+            height:400px;
+        }
+        h1{ 
+            position:relative;
+            left:150px;
+        }
+        p{  
+            
+            position:absolute; 
+            width:200px;
+        }
+        .para1{
+            left:500px;
+        }
+        .para2{
+            left:900px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+    <h1>Position Property</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo fuga, eaque porro dignissimos minus optio assumenda! Explicabo ducimus doloribus sint praesentium non quos eligendi cupiditate molestias assumenda dignissimos dolorem, voluptate cum aspernatur odit facere veniam exercitationem odio libero id beatae ex! Ipsam error, totam nostrum accusantium quae amet illum praesentium, sit ea in molestias odit at molestiae ut omnis? Voluptatem dignissimos, magni similique fuga expedita doloremque nesciunt, praesentium blanditiis accusantium quasi aut voluptate numquam fugit commodi quos perspiciatis consequuntur quae iusto? Rem, cupiditate similique. Eius, repellendus? Dolor perferendis, ea repellat optio quia atque reprehenderit vitae modi voluptatibus, consequatur obcaecati a.</p>
+    <p class="para2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ipsa quis ducimus adipisci hic sed facere, incidunt mollitia id nihil repellendus voluptas consequatur cum repudiandae, iure, minus voluptatem quasi? Exercitationem facilis vero labore molestias distinctio officia numquam dolorum iure explicabo eius vitae, eligendi voluptate ea sed quam. Saepe deserunt maiores, repellat, corrupti sequi magni soluta voluptatibus ducimus officia eligendi illum. Molestias nobis tenetur consequatur aspernatur dolor sed, excepturi hic facilis consectetur alias cum minus assumenda non, reprehenderit commodi deserunt eius possimus at repudiandae sapiente? Ea, amet facere beatae eum placeat magnam iste assumenda tempora, libero asperiores numquam optio corrupti ex.</p>
+    <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nam quod officia atque vero aliquam impedit laborum, adipisci, id quo eveniet tempore eligendi repellendus tenetur at? Explicabo inventore dolorem deserunt id similique soluta placeat, dignissimos iure asperiores temporibus, quisquam voluptas expedita ex quidem quas adipisci molestiae blanditiis voluptate atque saepe! Laudantium voluptas dolore perferendis, minus nobis itaque repellendus porro nisi deleniti nostrum quibusdam veritatis, pariatur dolores ipsa! Molestias, fugit error? Placeat nesciunt rerum quos! Illo iste aliquam porro suscipit sed veritatis maiores accusantium placeat eos a omnis tempora, rem ipsa distinctio, excepturi atque mollitia, autem obcaecati dolorem non? Nihil, iure.</p>
+</body>
+</html>
+
+FLOAT IN CSS
+
+
+        div{
+            background-color: blue;
+            width:400px;
+            height:400px;
+            margin-left:10px;
+            float:right; 
+        }
+
+<div class="col"><p></p><p></p><p></p></div>
+
+   .col p{
+            width:30%;
+            float:left;
+        }
+        .col :nth-child(3){
+            clear:both;
+        }
+
+
+OVERFLOW IN CSS 
+
+1.Visible
+2.Hidden
+3.Scroll
+4.Overflow-x:scroll;
+4.Overflow-y:scroll;
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #overflow{
+            width:95%;
+            max-width:500px;
+            height:500px;
+            background-color:aqua;
+            border:1px solid black;
+            overflow: hidden;
+            overflow-y: auto;
+            overflow-x: scroll;
+            /* overflow: visible;
+            */
+        
+            
+        }
+    </style>
+</head>
+<bo
+dy>
+    <div id="overflow">
+    <img src="Nelsson_Mandela.jpg" width="1200">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem dolore nulla enim dignissimos reiciendis blanditiis amet. Unde explicabo vitae assumenda dicta aperiam consectetur at quasi beatae maxime, fugiat incidunt quis corporis, facere, ipsum aliquid deleniti laborum quaerat esse obcaecati accusantium tempora doloribus qui reiciendis! Quos reiciendis odit temporibus animi enim magnam minima. Molestiae minus quae voluptatem ipsam, ea officia vero nulla architecto nam dolores quasi expedita illum incidunt doloribus optio aliquid nisi velit veritatis esse rem modi dolore in, a error! Nam velit quasi doloremque officiis error totam id, amet quidem, quaerat perferendis sit? Consequatur soluta neque placeat voluptatem laudantium!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore sequi corporis laudantium nam sunt repudiandae quis modi, inventore reprehenderit quo neque suscipit nesciunt perferendis recusandae. Pariatur, ex suscipit ut repellendus temporibus exercitationem natus laudantium id iste consequuntur ipsam quisquam aperiam optio vitae dolore libero labore! Blanditiis, fugiat quas accusantium sit iusto enim consectetur nulla ad quod sequi voluptatem esse tempore at nihil magnam eaque suscipit consequatur maiores alias ipsam! Hic fugiat nulla eius excepturi, tempora distinctio perferendis corporis, voluptas, a minima tempore repudiandae impedit sint dolorem odio sapiente delectus molestiae magni sit veniam amet! Pariatur ut ipsam explicabo nulla quia.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore sequi corporis laudantium nam sunt repudiandae quis modi, inventore reprehenderit quo neque suscipit nesciunt perferendis recusandae. Pariatur, ex suscipit ut repellendus temporibus exercitationem natus laudantium id iste consequuntur ipsam quisquam aperiam optio vitae dolore libero labore! Blanditiis, fugiat quas accusantium sit iusto enim consectetur nulla ad quod sequi voluptatem esse tempore at nihil magnam eaque suscipit consequatur maiores alias ipsam! Hic fugiat nulla eius excepturi, tempora distinctio perferendis corporis, voluptas, a minima tempore repudiandae impedit sint dolorem odio sapiente delectus molestiae magni sit veniam amet! Pariatur ut ipsam explicabo nulla quia.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore sequi corporis laudantium nam sunt repudiandae quis modi, inventore reprehenderit quo neque suscipit nesciunt perferendis recusandae. Pariatur, ex suscipit ut repellendus temporibus exercitationem natus laudantium id iste consequuntur ipsam quisquam aperiam optio vitae dolore libero labore! Blanditiis, fugiat quas accusantium sit iusto enim consectetur nulla ad quod sequi voluptatem esse tempore at nihil magnam eaque suscipit consequatur maiores alias ipsam! Hic fugiat nulla eius excepturi, tempora distinctio perferendis corporis, voluptas, a minima tempore repudiandae impedit sint dolorem odio sapiente delectus molestiae magni sit veniam amet! Pariatur ut ipsam explicabo nulla quia.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore sequi corporis laudantium nam sunt repudiandae quis modi, inventore reprehenderit quo neque suscipit nesciunt perferendis recusandae. Pariatur, ex suscipit ut repellendus temporibus exercitationem natus laudantium id iste consequuntur ipsam quisquam aperiam optio vitae dolore libero labore! Blanditiis, fugiat quas accusantium sit iusto enim consectetur nulla ad quod sequi voluptatem esse tempore at nihil magnam eaque suscipit consequatur maiores alias ipsam! Hic fugiat nulla eius excepturi, tempora distinctio perferendis corporis, voluptas, a minima tempore repudiandae impedit sint dolorem odio sapiente delectus molestiae magni sit veniam amet! Pariatur ut ipsam explicabo nulla quia.</p>
+    </div>
+</body>
+</html>
+
+TRANSISTION & TRANSFORM
+1.Transition-property
+2.Transition-duration
+3.Transition-delay
+4.Transistion-Timing-function
+
+Transistion- Gradually Changing
+
+Transistion-Timing-funtion
+
+ease in
+ease out
+ease in-out
+ease linear
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .square{
+            width:500px;
+            height:500px;
+            background-image: url(Nelsson_Mandela.jpg);
+            transition-duration: 3s;
+            transition-property:all;
+            transition-timing-function: linear;
+            
+        }
+        .square:hover{
+             /* background-image:linear-gradient(rgb(233, 13, 218),rgb(215, 215, 17));  */
+            width:100%; 
+             transform: rotate(45deg); 
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="square">
+
+    </div>
+</body>
+</html>
+
+
+METHOD 2
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .square{
+            width:100px;
+            height:100px;
+            background-color:red;
+            transition-duration:5s;
+            transition-property:all;
+            transition-timing-function:ease in;
+            transition-delay:3s;
+            /* transition:background-color 5s linear; */
+            
+            
+        }
+        .square:hover{
+            background-image: url(Nelsson_Mandela.jpg);
+              /* background-image:linear-gradient(rgb(233, 13, 218),rgb(215, 215, 17)); */
+              width:100%;
+              /* transform:translateX(20px); */
+            
+             
+             
+        }
+    </style>
+</head>
+<body>
+    <div class="square">
+
+    </div>
+</body>
+</html>
+
+TRANSFORM
+
+Rotate X,Y
+Scale(2)-X,Y
+Translate-X,Y(20PX) OR (-20PX)
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .square{
+            margin:300px;
+            width:100px;
+            height:100px;
+            background-color:red;
+            transition-duration:3s;
+            transition-property:all;
+            transition-timing-function:ease in;
+            transition-delay:3s;
+            /* transition:background-color 5s linear; */
+            
+            
+        }
+        .square:hover{
+            background-image: url(Nelsson_Mandela.jpg);
+            background-size: cover;
+               /* background-image:linear-gradient(rgb(233, 13, 218),rgb(215, 215, 17));  */
+              /* width:50%;*/
+              transform:translate(-20px);
+            
+             
+             
+        }
+    </style>
+</head>
+<body>
+    <div class="square">
+
+    </div>
+</body>
+</html>
+
+ANIMATION
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .square{
+            margin:300px;
+            width:100px;
+            height:100px;
+            background-color:red;
+            transition-duration:3s;
+            transition-property:all;
+            transition-timing-function:ease in;
+            transition-delay:3s;
+            /* transition:background-color 5s linear; */
+            
+            
+        
+        /* .square:hover{
+            background-image: url(Nelsson_Mandela.jpg);
+            background-size: cover;
+               /* background-image:linear-gradient(rgb(233, 13, 218),rgb(215, 215, 17));  */
+              /* width:50%;*/
+              /* transform:translate(-20px); */
+         .box{
+            width:300px;
+            height:300px;
+            background-color: blueviolet;
+            border-radius:50%;
+            animation-name: circle;
+            /* margin:50px; */
+            animation-duration: 10s;
+            /* animation-fill-mode: forwards; */
+             animation-iteration-count: 10; 
+         }
+         @keyframes circle {
+            10%{
+                background-color: palegreen;
+            
+                /* width:50px;
+                height:50px; */
+                margin:200px 300px;
+                
+            }
+            30%{
+            background-color:yellow;
+            width:200px;
+            height:200px;
+            margin:100px 500px
+         }
+            100%{
+            background-color:darkorange;
+            width:200px;
+            height:200px;
+            margin:600px 800px;
+         }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="square">
+
+    </div>
+</body>
+</html>
+
+
+

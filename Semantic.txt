@@ -1,0 +1,103 @@
+<!Doctype html>
+<html>
+<head>
+<title>Semantic Tag</title>
+</head>
+<body>
+
+<header>
+<h1><center>My Webpage Development</center><h1>
+</header>
+
+
+<nav>
+<a href ="">Home</a>
+<a href ="">about</a>
+<a href ="">Service</a>
+<a href ="">Product</a>
+<a href ="">Location</a>
+</nav>
+
+
+<section>
+<h1>Semantic Tag</h1>
+<p>Understandble for Developer and browser</p>
+</section>
+
+
+<section>
+<h1>Semantic Tag</h1>
+<p>Understandble for Developer and browser</p>
+</section>
+
+<section>
+<h1>Semantic Tag</h1>
+<p>Understandble for Developer and browser</p>
+</section>
+
+
+<h1>Article Tag</h1>
+<article>
+<h1>Semantic Tag</h1>
+<p>Understandble for Developer and browser</p>
+</article>
+
+
+<article>
+<h1>Semantic Tag</h1>
+<p>Understandble for Developer and browser</p>
+</article>
+
+
+<article>
+<h1>Semantic Tag</h1>
+<p>Understandble for Developer and browser</p>
+</article>
+
+<footer>
+<p>copyright : &copy;<p>
+</footer>
+
+<details>
+<summary>Full Stack</summary>
+<p>Just like any other beginner starting out, when I began to learn about coding, I knew that you were either a web developer or a mobile developer – at least, that's what I thought back then.
+
+So with this in mind it was easier for me to choose a track. I decided to first learn Android development then later transitioned to web development. I knew that with these skills, I was set and ready to apply for jobs.
+
+After a year of dedicated learning, there I was already applying for jobs. During this time of trying to find a role that aligned with my skills, something stood out in all the descriptions: they either wanted a front-end developer, back-end developer, or a full-stack developer.
+
+For a moment I was confused – all I ever wanted was to be a web developer, or at least I thought that was where everybody began.
+
+Seeing those new terms made me feel confused and for a moment I thought I had chosen the wrong path. But no, all this was because I wasn't well informed when I was starting out. I just needed to learn more about different terms/roles and I was good to go.
+
+It's also worth pointing out that, over the past few years, the web has grown and opened many opportunities for developers with different skills. So it does not matter what skills you have, the web is diverse it can always accommodate all of us 😊.
+
+So first, let's highlight the most common terms you are likely to encounter, and depending on your skills you will always classify yourself between these roles. They include:
+
+Front-end Developer - They deal with what we can see and interact with in a website.
+Back-end Developer - They deal with what the user can not see, they create pathways to deliver information to users.
+Full-Stack Developer - They are able to do both front and back end development (which applies for both mobile and web).</p>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

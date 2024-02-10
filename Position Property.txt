@@ -1,0 +1,380 @@
+1.Pseudo Class
+2.Table in Css
+3.Position Property
+
+
+
+Pseudo Class
+
+Specific Style for Element in each state.
+
+1.link(Default Highlight)
+ a:link{
+            background-color: aqua;
+        }
+2.visited   After Visiting output will be visible)
+  a:visited{
+            color:yellowgreen;
+        }
+3.active (Activating the hyperlink)
+ a:active{
+            color:brown;
+        }
+4.hover
+ a:hover{
+            background-color: blueviolet;
+        } 
+Change the color for hyperlink
+a{
+Property:value;
+}
+
+Table in Css
+
+1Table Borders
+2Collapse Table border
+3Table Width&Height
+4Horizontal Alignment
+5Vertical Alignment
+6Horizontal Dividers
+7Table Padding
+8Stripped Table
+
+nth-child() Selector
+
+ tr:nth-child(even):hover{        (horizontal)
+            background-color: grey;
+        }
+        tr:nth-child(odd):hover{
+            background-color: powderblue;
+        }
+
+td:nth-child(even):hover{        (Vertical)
+            background-color: grey;
+        }
+        td:nth-child(odd):hover{
+            background-color: powderblue;
+        }
+
+nth-child(an+b)      a= cycle size     b=offset value
+tr:nth-child(3n+2){
+            background-color:yellow;
+        }
+
+Style for Single child
+tr:nth-child(5){
+            background-color:yellow;
+        }
+        tr:nth-child(10){
+            background-color:brown ;
+            color:aqua;
+            font-weight: bold;
+        }
+
+
+
+Table Css Source code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td,th{
+            border-bottom:2px solid black;
+            border-collapse: collapse;
+            padding: 20px;
+
+        }
+        table{
+            width:100%;
+            height:auto;
+        }
+        td,th{
+            text-align:center;
+        }
+        td{
+            vertical-align:center;
+            height:60px;
+        }
+        tr:nth-child(5){
+            background-color:yellow;
+        }
+        tr:nth-child(10){
+            background-color:brown ;
+            color:aqua;
+            font-weight: bold;
+        }
+         
+ </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th>Company</th>
+            <th>Location</th>
+            <th>Role</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cognizant</td>
+                <td>Coimbatore</td>
+                <td>Software Developer</td>
+            </tr>
+            <tr>
+                <td>Cognizant</td>
+                <td>Coimbatore</td>
+                <td>Software Developer</td>
+            </tr>
+            <tr>
+                <td>Cognizant</td>
+                <td>Coimbatore</td>
+                <td>Software Developer</td>
+            </tr>
+            <tr>
+                <td>Cognizant</td>
+                <td>Coimbatore</td>
+                <td>Software Developer</td>
+            </tr>
+            <tr>
+                <td>Cognizant</td>
+                <td>Coimbatore</td>
+                <td>Software Developer</td>
+            </tr>
+            <tr>
+                <td>Cognizant</td>
+                <td>Coimbatore</td>
+                <td>Software Developer</td>
+            </tr>
+            <tr>
+                <td>Cognizant</td>
+                <td>Coimbatore</td>
+                <td>Software Developer</td>
+            </tr>
+            <tr>
+                <td>Cognizant</td>
+                <td>Coimbatore</td>
+                <td>Software Developer</td>
+            </tr>
+            <tr>
+                <td>Cognizant</td>
+                <td>Coimbatore</td>
+                <td>Software Developer</td>
+            </tr>
+            <tr>
+                <td>Cognizant</td>
+                <td>Coimbatore</td>
+                <td>Software Developer</td>
+            </tr>
+            
+
+        </tbody>
+    </table>
+</body>
+</html>
+
+Position Property
+
+Sticky
+      Top
+       Bottom
+
+div{
+    background-color:palevioletred;
+    border:2px solid black;
+    width:500px;
+    height:300px;
+    position:sticky;
+    bottom:10px;
+    top:0px;
+}
+
+2.Relative - Moving the element from normal postion.
+
+h1{
+    /* text-align:center; */
+    position:relative;
+    left:300px;
+    
+}
+
+eg2:  h1{
+    /* text-align:center; */
+     position:relative; 
+    /* position:static; */
+    left:250px;
+    
+    
+}
+
+3.Static
+h1{
+    /* text-align:center; */
+    position:static;
+    left:300px;
+    
+}
+
+Absolute  -  Moving from the Norma flow Position.
+Method1
+.div1{
+    border:2px solid black;
+    background-color: aquamarine;
+    width:200px;
+    height:200px;
+    /* position:relative; */
+   
+
+
+
+}
+.div2{
+    border:2px solid black;
+    background-color: aqua;
+    width:100px;
+    height:100px;
+    position:absolute;
+    left:50px;
+    bottom:500px;
+    top:120px;
+   
+
+}
+Method2
+.main{
+    border:2px solid black;
+    background-color: blue;
+    width:500px;
+    height:500px;
+    
+    /* position:fixed; */
+  
+   
+    
+
+
+}
+.div1{
+    border:2px solid black;
+    /* position:relative;
+    left:10px;
+    top:20px; */
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    margin-top:50px;
+    margin-left:50px;
+    
+   
+
+}
+.div2{
+    border:2px solid black;
+    width:100px;
+    height:100px;
+    background-color: greenyellow;
+    margin-top:60px;
+    margin-left :200px;
+    /* position:absolute; */
+    bottom:0px;
+  
+
+}
+.div3{
+    border:2px solid black;
+    width:100px;
+    height:100px;
+    background-color: yellow;
+    margin-top:200px;
+    margin-left:10px;
+    position: absolute;
+}
+
+
+Fixed
+.main{
+    border:2px solid black;
+    background-color: blue;
+    width:500px;
+    height:500px;
+    
+    /* position:fixed; */
+
+Z-INDEX
+
+.div1{
+    background-color: darkorange;
+    /* width:100px;
+    height:150px; */
+    color:white;
+    top:100px;
+    left:100px;
+    /* position: absolute; */
+    z-index:1;
+   
+    
+
+    
+}
+.div2{
+    background-color: red;
+    /* width:100px;
+    height:200px; */
+    color:white;
+    top:100px;
+    margin-left:150px;
+    /* z-index:2; */
+
+
+    
+}
+.div3{
+    background-color: green;
+    /* width:100px;
+    height:300px; */
+    color:white;
+    top:100px;
+    margin-left:200px;
+    /* z-index:3;
+     */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

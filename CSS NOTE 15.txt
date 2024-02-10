@@ -1,0 +1,92 @@
+Multiple Column  Layouts 
+
+Multiple column for laying out text - like Newspapers
+
+1.column-count 
+2.column-gap
+3.column-rule-width
+4.column-rule-style
+5.column-rule-color
+6.column-width  increasing & decreaseing
+7.column-rule - width style color(shorthand)
+
+     div{
+          column-count: 3;
+          column-gap: 20px; 
+          column-rule-style: solid ;
+          column-rule-width: 5px ;
+          column-rule-color: darkorange ;
+          /* column-rule: 5px solid darkorange; */
+        
+          /* column-width: 100px; */
+        }
+     
+
+Navigation Bar Design
+    <style>
+        * {
+            font-family: 'Times New Roman', Times, serif;
+            box-sizing: border-box;
+            padding:0px;
+            margin:0px;
+            
+        }
+        header{
+            background-color: aquamarine;
+            display:flex;
+            justify-content: space-between;
+            padding:10px 10px;
+            align-items: center;
+        h2{
+            cursor: pointer;
+            color:red;
+            font-weight: 200;
+        }    
+            
+        }
+        .list-items li {
+             display:inline-block;
+             list-style-type: none;
+        } 
+        .list-items li a{
+            text-decoration: none;
+        }
+        .list-items li{
+               padding:0px 20px;
+        }
+        .list-items li a:hover{
+              color:yellow;
+        }
+        button{
+            background-color: red;
+            color:white;
+            padding:10px 10px;
+            border-radius: 10px;
+            transition-duration: 5s;
+        }
+        button:hover{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Navigation Bar</h2>
+        <nav>
+            <ul class="list-items">
+                <li><a href="">Home</a></li>
+                <li><a href="">Section </a></li>
+                <li><a href="">Articles</a></li>
+                <li><a href="">Products</a></li>
+            </ul>
+        </nav>
+        <button>Contact us</button>
+    </header>
+</body>
+</html>
+
+
+GRID 
+
+Two dimenstional Layout

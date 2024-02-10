@@ -1,0 +1,119 @@
+Text formatting Tag
+
+The process of formatting text for better look
+
+HTML Rendered us ability to format text without using css
+
+<i>
+<b>
+<mark>
+<del>
+<ins>
+<strong>
+<br>
+<hr>
+<sup>
+<sub>
+
+<Anchor tag>
+syntax:
+
+<a href="">content</a>
+
+href - hyperlink reference 
+
+IFRAME - Embeddig One webpage into another webpage
+
+syntax:  <iframe src="https://en.wikipedia.org/wiki/HTML#"></iframe>
+
+
+Audio Tag
+
+<audio src =""></audio controls>
+For looping
+
+<audio src =""></audio> controls  autoplay loop>
+
+controls
+
+Autoplay
+
+loop
+
+<video src =""></video>controls  autoplay loop>
+
+controls
+
+Autoplay
+
+loop
+
+List tag
+
+Ordered List
+
+Unordered List
+
+Description List
+<dl>
+<dt> HTML:
+<dd>             Hyper text Markup language
+</dl>
+
+SEMANTIC TAG & NON SEMANTIC TAG
+
+Clearly Explain its meaning to both browser and developer
+
+<Header>
+<Nav>
+<article>
+<section>
+<figcaption>
+<summary>
+<details>
+<footer>
+
+Non Semantic tag
+
+The tag which is similar to the semantic elements,but  they do not have any meaningful content.
+
+They can be used with different attributes to mark up.
+
+<div>  - Division Tag   The div tag is used in HTML to male divisions of content  in the webpage like(text,images,header,footer,navigation bar)
+
+               It covers whole width of the webpage.
+<span>  - It is used to highlight inline content or part of  the html document.
+
+
+
+Entities
+Reserved Charaters  in HTML
+
+Start with & and ends in ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

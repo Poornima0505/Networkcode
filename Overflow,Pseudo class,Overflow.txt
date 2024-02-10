@@ -1,0 +1,83 @@
+1.Opacity
+
+   div{
+           
+            opacity:0.2;
+        }
+        img{
+           
+            width:500px;
+            height:500px;        
+        } 
+Ranges from (0.1 to 1)
+
+Pseudo class
+
+Specific style for Element in each stage
+
+1.link (Default highlight)
+
+2.Visited (After Visiting output will be displayed)
+3.Active (Activating hyperlink)
+4.hover
+
+    a:link{
+            background-color:violet;
+            text-decoration: none;
+        }
+        a:visited{
+            background-color: aqua;
+        }
+        a:active{
+            background-color: #fed138;
+            text-decoration: underline;
+        }
+        a:hover{
+            color:white;
+            background-color: darkorange;
+        }
+
+3Overflow  Property
+overflow-x
+overflow-y
+overflow
+
+values
+hidden 
+Scroll
+visible
+
+ 
+        #overflow{
+            width:50%;
+            width:500px;
+            height:500px;
+            overflow: hidden;
+            /* overflow:visible; */
+            /* overflow-y: hidden; */
+            overflow-y: scroll; 
+            overflow-x:scroll;        
+          /* overflow-x:hidden; */
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

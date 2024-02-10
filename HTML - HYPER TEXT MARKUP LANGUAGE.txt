@@ -1,0 +1,71 @@
+HTML - HYPER TEXT MARKUP LANGUAGE
+(To structure the webpage)
+
+Website - collection of webpages
+
+
+Two types of Webistes
+
+Static  -  Remains Fixed  
+eg: college websites,companies  websites
+
+
+Dynamic :  Dynamically generated according to the user interaction 
+
+eg youtube,instagram 
+
+
+Webpage- Single webpage or application
+
+Frontend Technology
+
+HTML  -  Structuring the webpage
+
+CSS - Designing the webpage 
+
+JAVASCRIPT-  Set of activities
+
+
+Basic structure of HTML
+
+<!Doctype html>- Mention HTML V5
+<html> - Type of Document
+<head> - Heading Tag gives the additional details about the webpage
+<title> - Name of webpage
+</head>
+<body>-Adding the content of the webpage
+</body>
+</html>
+
+<>- Angular tag 
+
+Three types of Building blocks in  html
+
+Elements -   <opening tag>content</closing tag>
+
+Tags -
+Container Tag
+<opening tag>
+<closing tag>
+
+
+Standalone tag
+<opening tag>
+
+
+Attributes - Gives Additional information about the html element   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

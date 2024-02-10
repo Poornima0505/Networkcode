@@ -1,0 +1,143 @@
+FORM TAG
+
+The user mainly give their Basic details in the form eg:Registration,Application  etc..
+
+HTTP - Set of rule or instruction to perform function.
+
+HTTP METHOD
+
+POST -  Create,store the data
+
+GET  - Retrieve the data
+
+PUT  - Replace the data
+
+DELETE - Remove the data.
+
+<form action ="url" method ="Post or get">
+
+<label> It is used to tell users  value that should be entered in the input field<input>
+
+<input type="value"  name="input value"  id="input value">
+
+values
+1.text
+2.number
+3.password
+4.email
+5.date
+6.checkbox  - Able to choose multiple option 
+7.radio button  - Able to choose specific option 
+
+
+INPUT ATTRIBUTE
+
+1.Placeholder - Intructing the user (format)
+2.Required
+3.Readonly
+
+ <!-- <label for="district">DISTRICT:</label> -->(different)
+      <input type="checkbox" name="city" id="city">Chennai
+      <input type="checkbox" name="city" id="city">Coimbatore
+      <input type="checkbox" name="city" id="city">salem
+      <input type="checkbox" name="city" id="city">Erode
+      <br><br>
+      <!-- <label for="district">DISTRICT:</label> -->(same)
+      <input type="radio" name="city" id="city">Chennai
+      <input type="radio" name="city" id="city">Coimbatore
+      <input type="radio" name="city" id="city">salem
+      <input type="radio" name="city" id="city">Erode
+8.file
+9.submit
+10.Reset
+
+COMMENT LINE IN HTML
+
+SHORTCUT KEY: ctrl+/
+
+
+FORM SOURCE CODE(REFERENCE)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM TAG</title>
+</head>
+<body style="background-color: aquamarine;">
+    <h1>Registration Form</h1>
+    <!-- <form  action="form1.html" method="Post/GET"> -->
+      <fieldset>
+      <legend>REGISTRATION FORM</legend>
+      <form action="form1.html">
+      <label for="fname">FIRSTNAME:</label>
+      <input type="text" name="fname" id="fname" placeholder="Enter ur name"> 
+      <br><br>
+      <label for="Lname">LASTNAME:</label>
+      <input type="text" name="Lname" id="Lname">
+      <br><br>
+      <label for="email">EMAIL:</label>
+      <input type="email" name="EMAIL" id="EMAIL" required>
+      <br><br>
+      <label for="password">PASSWORD:</label>
+      <input type="password" name="PWORD" id="PWORD">
+      <br><br>
+      <label for="dob">DOB:</label>
+      <input type="date" name="DOB" id="DOB">
+      <br><br>
+      <label for="PHNO">PHONE NO:</label>
+      <input type="number" name="phno" id="phno" value="6381177595" readonly>
+      <br><br>
+      <label for="district">DISTRICT:</label>
+      <input type="checkbox" name="city" id="city">Chennai
+      <input type="checkbox" name="city" id="city">Coimbatore
+      <input type="checkbox" name="city" id="city">salem
+      <input type="checkbox" name="city" id="city">Erode
+      <br><br>
+      <label for="district">DISTRICT:</label>
+      <input type="radio" name="city" id="city">Chennai
+      <input type="radio" name="city" id="city">Coimbatore
+      <input type="radio" name="city" id="city">salem
+      <input type="radio" name="city" id="city">Erode
+      <br><br>
+      <label for="music">MUSIC:</label>
+      <select value="music">
+        <option></option>
+        <option value="music">ANIRUDH</option>
+        <option value="music">HARISH</option>
+        <option value="music">AR RAHUMAN</option>
+        <option value="music">ILLAIRAJA</option>
+      </select>
+      <br><br>
+      <label for="resume">RESUME:</label>
+      <input type="file"  name="file" id="file">
+      <br><br>
+      <label for="description">DESCRIPTION:</label>
+      <br><br>
+      <textarea id="description" name="description" row="100" cols="100" placeholder="WRITE THE MESSAGE HERE"></textarea>
+      <br><br>
+      <input type="reset">
+      <br><br>
+      <button type="submit">SUBMIT</button>
+</fieldset>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

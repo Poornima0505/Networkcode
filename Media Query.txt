@@ -1,0 +1,134 @@
+Outline Property - line drawn around element 
+
+Outline-Style
+Outline-color
+Outline-width
+Outline-offset
+Outline : width style color;
+
+        .container{
+            border:2px solid red;
+            padding:30px;
+            margin:50px;
+            /* outline-style: solid;
+            outline-color:blue;
+            outline-width: 3px; */
+            outline-offset: 30px;
+            outline:3px solid blue;
+        }
+
+
+outline
+margin
+padding
+content
+
+Media Query - Responsive part
+
+Using Media Query (breakpoint) bring Responsiveness
+
+Extra Small -  ( mobile screen max 600px) 
+
+Small Device - (small device min 600px)
+
+Medium - Tablets(min  760px)
+
+Large Device (Laptop&Desktop) (min 1200px)
+
+
+Maximum (within value)Output will be displayed(below)
+
+Minimum (specific value&After Specfic Value)Output will be displayed(Above)
+
+
+syntax: 
+@media (width:value;){
+selector{
+                property:value;
+            }
+
+}
+
+Maximum eg source code 
+
+  @media only screen and (max-width:600px){
+            .container p{
+                background-color:purple;
+                display:flex;
+                color:white;
+                padding:30px;
+                margin:30px;
+            }
+            .para2{
+                background-image:url(Nelsson_Mandela.jpg);
+                background-size: cover;
+                font-weight: bold;
+            
+            }
+            .media{
+                width:100px;
+                height:100px;
+                background:linear-gradient(yellow,navy);
+                transform:rotate(360deg);
+                transition-duration: 10s;
+            }
+        }
+
+Minimum eg source code 
+
+ @media  only screen and (min-width:1200px)  {
+            .container p{
+                background-color:purple;
+                display:flex;
+                color:white;
+                padding:30px;
+                margin:30px;
+            }
+            .para2{
+                background-image:url(Nelsson_Mandela.jpg);
+                background-size: cover;
+                font-weight: bold;
+            
+            }
+            .media{
+                width:100px;
+                height:100px;
+                background:linear-gradient(yellow,navy);
+                transform:rotate(360deg);
+                transition-duration: 10s;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,165 @@
+<!Doctype html>
+<html>
+<head>
+<title>Webpage</title>
+</head>
+<body>
+<h1>Full Stack </h1>
+<h2>+Full Stack </h2>
+<h3>Full Stack </h3>
+<h4>Full Stack </h4>
+<h5>Full Stack </h5>
+<h6>Full Stack </h6>
+<h1>Paragraph tag </h1>
+<p>Motivation is an internal state that propels individuals to engage in goal-directed behavior. It is often understood as a force that explains why people or animals initiate, continue, or terminate a certain behavior at a particular time.<br> It is a complex phenomenon and its precise definition is disputed. It contrasts with amotivation, which is a state of apathy or listlessness. <i>Motivation is studied in fields like<sub> psychology,</sub> motivation science, and philosophy</i>.</p><hr>
+<p>Motivation is an internal state that propels individuals to engage in goal-directed behavior. <mark>It is often understood as a force that explains why people or animals</mark> initiate, continue, or terminate a certain behavior at a particular time.<br> It is a complex phenomenon and its precise definition is disputed. It contrasts with amotivation, which is a state of apathy or listlessness.<i> Motivation is studied in fields like psychology, motivation science, and philosophy.</i></p><hr>
+<p>Motivation is an internal state that propels individuals to engage in goal-directed behavior. It is often understood as a force that explains why people or animals initiate, continue, or terminate a certain behavior at a particular time.<br> It is a complex phenomenon and its precise definition is disputed. It contrasts with amotivation, which is a state of apathy or listlessness.<i> Motivation is studied in fields like psychology, motivation science, and philosophy</i>.</p><hr>
+<p>Motivation is an internal state that propels individuals to engage in goal-directed behavior. It is often understood as a force that explains why people or animals initiate, continue, or terminate a certain behavior at a particular time.<br> It is a complex phenomenon and its precise definition is disputed. It contrasts with amotivation, which is a state of apathy or listlessness. <i>Motivation is studied in fields like psychology, motivation science, and philosophy.</i></p><hr>
+<pre>
+Address:
+965 Police colony
+Coimbatore
+641006
+
+
+Delhi
+chennai 
+Coimbatore
+</pre>
+<h1>h<sub>2</sub>0</h1>
+<h1>CH2<sup>H20</sup>CH5</h1>
+<abbr title ="Hyper text Markup Language">HTML</abbr>was developed by TIM BERNERS LEE IN 1993.
+<abbr  title ="World Health Organization">WHO</abbr>
+<h1>Image tag</h1>
+<img src = "Dhoni.jpeg"  width="500px" height="500px">
+<img src="C:\Users\POORNIMA\Desktop\Dhoni.jpeg"  width="500px" height="500px">
+
+<iframe src="https://en.wikipedia.org/wiki/Full_stack"    width="500px" height="800px"></iframe>
+
+<h1> LIST TAG </h1>
+<h3>Ordered List</h3>
+<ol>
+<li>Allen</li>
+<li>Ankita</li>
+<li>Ashok</li>
+<li>Jadwin</li>
+<li>spoorthi</li>
+<li>Krisha</li>
+</ol>
+<h3>Unordered List </h3>
+<ul>
+<li>Allen</li>
+<li>Ankita</li>
+<li>Ashok</li>
+<li>Jadwin</li>
+<li>spoorthi</li>
+<li>Krisha</li>
+</ul>
+
+<h3>Roman</h3>
+<ol type ="I">
+<li>Allen</li>
+<li>Ankita</li>
+<li>Ashok</li>
+<li>Jadwin</li>
+<li>spoorthi</li>
+<li>Krisha</li>
+</ol>
+
+<h3>Alphabets</h3>
+<ol type ="A">
+<li>Allen</li>
+<li>Ankita</li>
+<li>Ashok</li>
+<li>Jadwin</li>
+<li>spoorthi</li>
+<li>Krisha</li>
+</ol>
+
+<h3>Description list</h3>
+<dl>
+<dt>HTML:</dt>
+<dd>Hyper Text Markup Language</dd>
+<dt>CSS</dt>
+<dd>Cascading Style Sheet</dd>
+</dl>
+
+<a href  ="https://www.amazon.in/s?k=womens+shirt+dress&adgrpid=1322714095720649&hvadid=82669901377242&hvbmt=bb&hvdev=c&hvlocphy=149915&hvnetw=o&hvqmt=b&hvtargid=kwd-82670512593125%3Aloc-90&hydadcr=23623_2291911&tag=msndeskstdin-21&ref=pd_sl_3s0ykvennf_b">Amazon</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

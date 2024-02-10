@@ -1,0 +1,217 @@
+FORM TAG
+
+The user mainly give their details in the form eg: Registration,Application 
+
+HTTP : Set of rules or instrution to perform function 
+Request and Response 
+
+HTTP METHOD
+
+Get - Retrieve Data from server to client
+
+Post - Created and stored in Database 
+
+Put - Replaces the data
+
+Delete - Remove the data
+
+syntax: form
+
+ <form action="form1.html" method="Post">
+
+<label> It is used to specify a label for an <input> element of  a form
+
+id -  The id attribute assigns identifier to the form element 
+
+TYPES = "VALUE"
+
+1.text
+2.email
+3.number 
+4.password
+5.checkbox  - selecting Multiple options
+6.radio  - Selecting unique options
+7.date
+8.file
+9.Reset 
+10.submit
+
+<textarea> - It is used to define a multi-line text input control(rows&col).
+
+INPUT ATTRIBUTE
+
+1.Place holder  - Instructing the user 
+2.Required
+3.Readonly  (value="90945xxxxx"  readonly)
+
+HTML COMMENT TAG    
+
+<!---SOURCE CODE-->
+
+SHORTCUT KEY:  ctrl+/
+
+RETURN               :   ctrl+/
+
+
+
+FORM SOURCE CODE 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM TAG</title>
+</head>
+<body style="background-color: aquamarine;">
+    <h1>REGISTRATION FORM </h1>
+    <form action="form1.html">
+    <label for="firstname">FIRST NAME:</label>
+    <input type="text" name="fname" id="fname" placeholder="Enter your name">
+    <br><br>
+    <label for="lastname">LAST NAME:</label>
+    <input type="text" name="lname" id="lname" required >
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+    <br><br>
+    <label for="phno">PHONENUMBER:</label>
+    <input type="number" name="number" id="number"  value="6381177595"  readonly>
+    <br><br>
+    <label for="pword">NEW PASSWORD:</label>
+    <input type="password" name="pword" id="pword">
+    <br><br>
+    <label for="district">DISTRICT:</label>
+    <input type="checkbox" name="city1" id="city1">Chennai
+    <input type="checkbox" name="city2" id="city2">Coimbatore
+    <input type="checkbox" name="city3" id="city3">Salem
+    <input type="checkbox" name="city4" id="city4">Madurai
+    <br><br>
+    <label for="district">DISTRICT:</label>
+    <input type="radio" name="city" id="city">Chennai
+    <input type="radio" name="city" id="city">Coimbatore
+    <input type="radio" name="city" id="city">Salem
+    <input type="radio" name="city" id="city">Madurai
+    <br><br>
+    <label for="dob">DATE OF BIRTH:</label>
+    <input type="date" name="dob" id="dob">
+    <br><br>
+    <label for="resume">RESUME:</label>
+    <input type="file" name="resume" id="resume">
+    <br><br>
+    <label for="HOBBIES">HOBBIES:</label>
+    <select value="hobbies">
+        <option></option>
+        <option value="hobbies">SKIPPING</option>
+        <option value="hobbies">MUSIC</option>
+        <option value="hobbies">READING BOOKS</option>
+    </select>
+    <br><br>
+    <label for="description">Description:</label>
+    <br><br>
+    <textarea id="description" name="description" row="20" col="40" placeholder="Write your Message here..."></textarea>
+
+    <br><br>
+    <input type="reset">
+
+    <button type="submit">Submit</button>
+    </form>
+    </body>
+    </html>
+
+
+CSS -  Cascading Style sheet 
+
+Cascading  ---->Cascading order is a set of rule that determine which style will be applied to an elements.
+
+selector{
+                 property:value;
+
+             }
+
+h1{
+           color:red;
+
+     }
+
+Three Types of Style sheet
+
+Inline - (Applying Style using style attribute inside the tag)
+
+
+Internal - Applying the Style inside the head tag
+<style>
+selector {
+
+                    property: value;
+
+               }
+</style>
+     
+
+eg 
+<head>
+<title></title>
+<style>
+        h1{
+            color:red;
+        }
+        p{
+            color:blue;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+
+External   - Adding New style sheet and link into html source  file
+
+<link rel="stylesheet"   href="filename.css">
+
+rel - relation 
+
+href - hyperlink reference
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+   
+
+
+
+
+
+
+
+    
+    
+
+   
+
+
+
+
+
+
+
+
+
+

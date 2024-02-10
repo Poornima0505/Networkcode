@@ -1,0 +1,218 @@
+Transition 
+
+CSS Transition allows to adjust property values smoothly over time.
+
+Transition Property
+Transition delay
+Transition duration
+  div{
+            border:2px solid red;
+            background-color: aqua;
+            width:400px;
+            height:400px;
+            margin:50px;
+            transition-property:all;
+            transition-duration:5s;
+            transition-delay: 3s;
+
+
+        }
+        div:hover{
+            background: linear-gradient(red,yellow);
+            width:50%
+
+Transition timing function
+       Ease in  -------> Start slow        Finish Fast
+
+       Ease out --------->Start Fast       Finish Slow
+
+       Ease in-out ----------->Both Action 
+
+        Linear ----------->Uniform
+
+    div{
+            border:2px solid red;
+            background-color: aqua;
+            width:400px;
+            height:400px;
+            margin:50px;
+            transition-property:all;
+            transition-duration:5s;
+            transition-delay: 3s;
+            /* transition-timing-function: ease-in; */
+            /* transition-timing-function: ease-out; */
+            /* transition-timing-function: ease-in-out; */
+            transition-timing-function: linear;
+        }
+        div:hover{
+            background: linear-gradient(red,yellow);
+            width:50%
+             }
+
+Transform-formation
+
+The tranform CSS Property rotate,scale,skew and translate(moving) an element
+
+Rotate 
+     Rotate 
+     Rotate X
+     Rotate Y
+
+ div{
+            border:2px solid red;
+            /* background-color: aqua; */
+            background-image: url(nature.jpg);
+            width:400px;
+            height:400px;
+            margin-top:200px;
+            margin-left:500px;
+            transition-property:all;
+            transition-duration:5s;
+            /* transition-delay: 3s; */
+            transition-timing-function: linear;
+        }
+        div:hover{
+            background-image: url(Mickey.jpeg);
+            /* background-repeat: no-repeat; */
+            /* width:50%; */
+            /* transform: rotate(360deg); */
+            transform: rotateX(360deg);
+            /* transform:rotateY(360deg); */
+            transform: rotateZ(40deg);
+        }
+
+Scale
+     
+    1  Scale-X
+    2  Scale-Y
+    3  Scale ---------x,y
+
+    div:hover{
+            background-image: url(Mickey.jpeg);
+            /* background-repeat: no-repeat; */
+            /* width:50%; */
+            /* transform: scale(5); */
+            /* transform: scaleX(3); */
+            transform: scaleY(3);
+        }
+
+Skew
+The function is an inbuilt function which is used to transform an element in the 2d plane
+
+1.skew(ax,ay)
+2.skew(ax)
+3.skewX(a)
+4.skewY(a)
+
+ .skew1{
+            width:200px;
+            height:200px;
+            background-image: url(skew.jpeg);
+            margin:100px;
+            transform: skew(10deg);
+       
+        }
+        .skew2{
+            width:200px;
+            height:200px;
+            background-image: url(skew.jpeg);
+            margin:20px;
+            transform: skew(10deg,10deg);
+            margin-top: 50px;
+            
+        }
+        .skew3{
+            width:200px;
+            height:200px;
+            background-image: url(skew.jpeg);
+            margin:20px;
+            transform: skewX(10deg);
+        }
+        .skew4{
+
+            width:200px;
+            height:200px;
+            background-image: url(skew.jpeg);
+            margin:20px;
+            transform: skewY(10deg);
+        }
+
+1.translateX(-val)
+2.translateX(+val)
+3.translateY(-val)
+3.translateY(+val)
+
+ .skew1{
+            width:200px;
+            height:200px;
+            background-image: url(skew.jpeg);
+            margin:100px;
+            /* transform: skew(10deg); */
+            /* transform: translateX(-50px); */
+            /* transform:translateY(50px); */
+            transform: translateY(-50px);
+        }
+
+Animations in CSS
+
+It is defined to move animate transition from one position to another position 
+
+@keyframes - It indicate start and end states of the animation style
+
+The CSS Controls intermediate steps in CSS  Animation Sequence by defining styles for Key frames.
+
+Animation Properties
+
+Animation-name
+Animation-duration
+Animation-fill-mode
+forwards
+backward
+Animation-iteration-count
+
+Syntax:
+
+@keyframes identifier{
+from {
+
+property:value;
+
+}
+To {
+
+property:value;
+
+}
+
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

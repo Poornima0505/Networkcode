@@ -1,0 +1,228 @@
+Box Shadow
+
+Top-left
+Bottom-Right
+Bottom-Right-spread
+Outer Spread
+inset
+
+Example Source code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        div{
+            width:200px;
+            height:200px;
+            border:2px solid salmon;
+            margin:10px;
+           
+        }
+        .box1{
+            box-shadow: -5px -5px red;
+        }
+        .box2{
+            box-shadow: 5px 5px 5px blue;
+        }
+        .box3{
+            box-shadow: -5px -5px 5px 10px aquamarine;
+        }
+        .box4{
+            box-shadow: 0 0 10px 5px yellowgreen;
+        }
+        .box5{
+            box-shadow:inset 0 0 10px purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box Shadow Property</h1>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+</body>
+</html>
+
+Flex-Box
+
+Flexible and Perfect Alignment
+
+display:flex;
+
+1.flex
+2.order
+
+.container{
+    display:flex;
+    /* flex-direction: column; */
+}
+.para1{
+    background-color: aqua;
+    flex:2;
+    order:3;
+}
+.para2{
+    background-color: red;
+    flex:1;
+    order:1;
+}
+.para3{
+    background-color: yellow;
+    flex:3;
+    order:2;
+}
+
+flex-direction:column
+
+justify-content
+1.center
+2.flex-end
+3.flex-start
+4.space-around
+5.space-between
+
+.container1{
+    background-color: aqua;
+    min-height:500px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+.box{
+    width:200px;
+    height:200px;
+    background-color: red;
+    border:5px solid yellow;
+    padding:10px;
+
+}
+
+Align-items
+
+flex-end
+flex-start
+center
+align-items:stretch;
+
+.container1{
+    background-color: aqua;
+    min-height:500px;
+    display: flex;
+    justify-content:center;
+    align-items:stretch;
+    /* justify-content: space-around;
+    justify-content: space-between; */
+}
+.box{
+    width:200px;
+    /* height:200px; */
+    background-color: red;
+    border:5px solid yellow;
+    padding:10px;
+
+}
+
+Align-self
+
+.box1{
+    align-self:flex-end;
+    align-self: flex-start;
+    align-items: center;
+}
+
+flex-wrap
+
+1.wrap
+
+.container1{
+    background-color: aqua;
+    min-height:500px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    /* justify-content: space-around;
+    justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.box{
+    width:200px;
+    height:200px;
+    background-color: red;
+    border:5px solid yellow;
+    padding:10px;
+
+2.nowrap
+
+
+
+flex-grow
+flex-basis
+
+.box3{
+    flex-grow:2;
+    flex-basis: 0;
+}
+.box1{
+    flex-grow:2;
+    flex-basis: 0; 
+}
+
+flex-shrink
+.box1{
+    flex-shrink: 2;
+}
+
+flex:  grow  shrink basis;
+
+(We can use pixel values for  grow,shrink,basis )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

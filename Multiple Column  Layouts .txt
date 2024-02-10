@@ -1,0 +1,25 @@
+Multiple Column  Layouts 
+
+Multiple column for laying out text - like Newspapers
+
+1.column-count 
+2.column-gap
+3.column-rule-width
+4.column-rule-style
+5.column-rule-color
+6.column-width  increasing & decreaseing
+7.column-rule - width style color(shorthand)
+
+     div{
+          column-count: 3;
+          column-gap: 20px; 
+          column-rule-style: solid ;
+          column-rule-width: 5px ;
+          column-rule-color: darkorange ;
+          /* column-rule: 5px solid darkorange; */
+        
+          /* column-width: 100px; */
+        }
+     
+
+

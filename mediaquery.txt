@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .para1{
+            background-color: aqua;
+        }
+        .para2{
+           background-color: red;
+        }
+        .para3{
+            background-color: yellow;
+        }
+        @media(max-width:600px){
+            .container p{
+                background-color: aqua;
+                display:flex;
+                justify-content: center;
+                padding: 30px;
+                margin:30px;
+            }
+
+            .para1{
+                background-color: darkorange;
+            }
+            .para2{
+                background-image: url(Nelsson_Mandela.jpg);
+            }
+      
+
+
+        }
+
+
+        
+    </style>
+</head>
+<body>
+   
+    <div class="container">
+    <p class="para1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis tenetur voluptate unde rem eligendi, delectus magnam aspernatur amet natus expedita minima itaque, alias, saepe doloremque fugiat. Provident, hic temporibus, quidem aut nulla aperiam vero, minus molestiae quisquam explicabo asperiores iure nam excepturi? Cupiditate dolores dolorum in asperiores blanditiis accusamus perspiciatis corporis laudantium est accusantium quibusdam quisquam ullam deleniti nobis quam obcaecati repudiandae, iusto eaque consequuntur libero, error tenetur! Minus omnis explicabo fuga, suscipit alias, veniam optio harum at ipsa est velit eligendi ab natus, laboriosam molestias obcaecati quisquam delectus numquam asperiores. Omnis porro in expedita est veniam nam ratione velit.</p>
+    <p class="para2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis tenetur voluptate unde rem eligendi, delectus magnam aspernatur amet natus expedita minima itaque, alias, saepe doloremque fugiat. Provident, hic temporibus, quidem aut nulla aperiam vero, minus molestiae quisquam explicabo asperiores iure nam excepturi? Cupiditate dolores dolorum in asperiores blanditiis accusamus perspiciatis corporis laudantium est accusantium quibusdam quisquam ullam deleniti nobis quam obcaecati repudiandae, iusto eaque consequuntur libero, error tenetur! Minus omnis explicabo fuga, suscipit alias, veniam optio harum at ipsa est velit eligendi ab natus, laboriosam molestias obcaecati quisquam delectus numquam asperiores. Omnis porro in expedita est veniam nam ratione velit.</p>
+    <p class="para3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis tenetur voluptate unde rem eligendi, delectus magnam aspernatur amet natus expedita minima itaque, alias, saepe doloremque fugiat. Provident, hic temporibus, quidem aut nulla aperiam vero, minus molestiae quisquam explicabo asperiores iure nam excepturi? Cupiditate dolores dolorum in asperiores blanditiis accusamus perspiciatis corporis laudantium est accusantium quibusdam quisquam ullam deleniti nobis quam obcaecati repudiandae, iusto eaque consequuntur libero, error tenetur! Minus omnis explicabo fuga, suscipit alias, veniam optio harum at ipsa est velit eligendi ab natus, laboriosam molestias obcaecati quisquam delectus numquam asperiores. Omnis porro in expedita est veniam nam ratione velit.</p></div>
+</body>
+</html>
+
+
+
+   #outline{
+            border:2px solid red;
+            padding:50px;
+            /* outline-style: solid;
+            outline-width: 5px;
+            outline-color: yellow;
+            outline-offset: 4px; */
+            outline: 5px solid yellow;
+        }

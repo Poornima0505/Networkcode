@@ -1,0 +1,208 @@
+CSS Selectors
+
+Selector defines as Combination of characters and symbols that instruct the browsers to apply specific css properties
+
+Comment for CSS 
+/ * ---------*/
+Shortcut key - ctrl /
+
+Two types of Selector 
+
+Simple Selector
+The Selector with a single component
+
+1.Universal Selector------>global selector----->(*- asterisk)
+
+* {
+          property:value;
+}
+
+2.Element Selector
+Select Element with Element name
+
+Element {
+                  property:value
+
+               }
+
+eg: p{
+    color:blue;
+    font-size: 30px;
+        }
+
+
+
+3.Class Selector  - (.)
+The class Selector in css selects element that belong to particular class
+
+syntax:  
+.classname   {                             -     (able to use one or more values)
+                   property:value;
+}
+
+.container {
+           background-color: blue;
+           font-size: 30px;
+           color:red;
+       
+}
+
+4.ID Selector  - (#)            
+
+The id Attribute is unique indentifier to use and id selector in css
+
+syntax:                                               (specific value)
+#idname {
+                   property:value;
+               }
+
+
+#container {
+           background-color: blue;
+           font-size: 30px;
+           color:red;
+       
+}
+
+
+5.Group Selector
+
+Same Style is Implemented over Multiple Elements
+
+Syntax : 
+eg  h1,h3,p{
+     color:red;
+     font-size: 20px;
+}
+
+
+Combinators
+
+The type of Selector in css which is used to specify the relationship between two selectors
+ 
+6   Descendent Selector   (space)
+
+Main element -------->sub element will be styled
+
+syntax 
+eg:   div   p{
+                       property:value;
+                   }
+
+7  Child Selector
+
+It is used to style child tag
+
+syntax:  eg div  > p{
+                                  property:value;
+                               }
+
+eg: div > p{
+    font-size: 30px;
+    font-family: Tempus Sans ITC;
+    color:violet;
+}
+
+8  Adjacent Sibling Selector (+)
+
+It is used to style secondary element which is after the main element
+
+syntax:  eg div  + section{
+                                  property:value;
+                               }
+
+
+9 General Sibling Selector (~) Tidal Symbol
+
+After the main element( Last elements styled using General Selector)
+
+syntax:  eg div  ~ section{
+                                  property:value;
+                               }
+eg :   div ~ article{                  (last element of main element)
+    background-color: aquamarine;
+    color:blue;
+    font-size: 20px;
+} 
+
+Font Properties
+
+1.Font-Family
+
+font-family:'Times New Roman', Times, serif;
+2.Font-style
+font-style: normal;
+                    italic;
+3.Font-Variant
+  font-variant:small-caps;
+                       normal;
+4.Font-weight
+
+ font-weight: bold;
+
+5.Font-size
+
+p{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+6.color
+
+p{
+    font-weight: bold;
+    font-size: 30px;
+    color:blueviolet;
+}
+
+7.Font(shorthand Property)
+p{
+    /* color:red; */
+    font:20px Arial,serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

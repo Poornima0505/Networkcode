@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+      .fa-google::after{
+        /* font-size: 40px; */
+        content:'List Property';
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        position:relative;
+        left:250%;
+        /* text-decoration: underline; */
+      
+       
+      }
+      .fa-google{
+       font-size: 40px;
+       text-align: center;
+       color:blueviolet;
+      }
+      h1{
+        display: inline-block;
+        position:relative;
+        left:20%;
+        font-size:40px;
+        color:red;
+      }
+  
+    </style>
+</head>
+<body>
+    <div>
+    <i class="fa-brands fa-google"></i>
+    <h1>ICONS</h1>
+   
+    </div>
+
+   
+  
+    
+</body>
+</html>
+
+
+<------------------------------------------------------------------------>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+      .fa-google::after{
+        /* font-size: 40px; */
+        content:'List Property';
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        position:relative;
+        left:250%;
+        /* text-decoration: underline; */
+      
+       
+      }
+      .fa-google{
+       font-size: 40px;
+       text-align: center;
+       color:blueviolet;
+      }
+      h1{
+        display: inline-block;
+        position:relative;
+        left:20%;
+        font-size:40px;
+        color:red;
+      }
+      /* List icons */
+      .fa-ul{
+         font-size: 20px;
+         color:dodgerblue;
+      }
+   
+    </style>
+</head>
+<body>
+    <div>
+    <i class="fa-brands fa-google"></i>
+    <h1>ICONS</h1>
+    <ul class="fa-ul">
+        <li><span class="fa-li"><i class="fa-solid fa-cart-shopping"></i></span>Ordered Items</li>
+        <li><span class="fa-li"><i class="fa-solid fa-cart-shopping"></i></span>Ordered Items</li>
+        <li><span class="fa-li"><i class="fa-solid fa-cart-shopping"></i></span>Ordered Items</li>
+        <li><span class="fa-li"><i class="fa-solid fa-cart-shopping"></i></span>Ordered Items</li>
+        <li><span class="fa-li"><i class="fa-solid fa-cart-shopping"></i></span>Ordered Items</li>
+        <li><span class="fa-li"><i class="fa-solid fa-cart-shopping"></i></span>Ordered Items</li>
+    </ul>
+    <!-- <ul class="fa-ul">Refrence Code 
+        <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>List icons can</li>
+        <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>be used to</li>
+        <li><span class="fa-li"><i class="fa-solid fa-spinner fa-pulse"></i></span>replace bullets</li>
+        <li><span class="fa-li"><i class="fa-regular fa-square"></i></span>in lists</li>
+      </ul> -->
+    
+   
+    </div>
+
+   
+  
+    
+</body>
+</html>

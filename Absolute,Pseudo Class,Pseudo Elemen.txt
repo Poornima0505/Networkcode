@@ -1,0 +1,175 @@
+Absolute,Pseudo Class,Pseudo Elements,Float,Overflow,Opacity.
+
+
+
+<title>Absolute Property </title>
+
+    <style>
+        .main{
+            border:2px solid black;
+            width:800px;
+            height:500px;
+            position:relative;
+
+        }
+
+        .contain1{
+            border:2px solid black;
+            background-color: aqua;
+            width:100px;
+            height:100px;
+            margin-top:10px;
+            margin-left:10px;
+            
+        }
+        .contain2{
+            border:2px solid black;
+            width:100px;
+            height:100px;
+            margin-top:10px;
+            background-color: blue;
+            margin-left:10px;
+            position: absolute;
+            bottom:10px;
+            
+        }
+        .contain3{
+            border:2px solid black;
+            width:100px;
+            height:100px;
+            margin-top:10px;
+            background-color: blueviolet;
+            margin-left:10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="contain1"></div>
+        <div class="contain2"></div>
+        <div class="contain3"></div>
+    </div>
+</body>
+</html>
+
+
+Pseudo Class and Pseudo Elements
+
+The Pseudo Elements is defined as keyword which is added to selector that apply style for the specific part of the selector elements
+
+first-letter
+   /* .main  p::first-letter{
+               
+                 color:blue;
+                 font-style: italic;
+                 font-size: 20px;
+        } */
+first-line 
+     .main  p::first-line{
+               
+               color:blue;
+               font-style: italic;
+               font-size: 20px;
+      }
+Before
+
+After
+ /* .main p::before{
+            content: 'Paragraph 1:';
+        } */
+        .main p::after{
+            content: '-concluded';
+        }
+Selection
+.main p::selection{
+            background-color: yellow;
+            color:red;
+        }
+
+<list items>
+        ::marker{
+            color:darkorange;
+        } 
+
+Pseudo Class
+It is defined as Keyword which is combined to Selector that defines the special state of selected elements.
+
+link
+Active
+Visited
+hover
+nth-child
+
+ 1./* a:link{
+            background-color: violet;
+        } */
+2.        /* a:active{
+            background-color: yellow;
+            font-size: 20px;
+        } */
+ 3.      /* a:visited{
+            background-color: aqua;
+        } */
+4.        a:hover{
+            color:red;
+            background-color: darkmagenta;
+        }
+
+Opacity
+
+Ranges from 0.1-------1.0
+
+ div:hover{
+            border:2px solid black;
+            opacity:0.5;
+        }
+
+Float in CSS(Mainly used to fill empty places )
+
+Left
+Right
+
+  .main p{
+           width:30%;
+           float:right;
+       }
+
+Overflow
+
+1.Visible
+2.Hidden
+3.Scroll
+  /* overflow:visible; */
+  /* overflow:hidden; */
+  /* overflow:scroll; */
+
+4.Overflow-X
+ /* overflow-x: hidden; */
+ /* overflow-x: visible; */
+ /* overflow-x: scroll; */
+
+
+5.Overflow-Y
+ /* overflow-y: hidden; */
+ /* overflow-y: visible; */
+ /* overflow-y: scroll; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

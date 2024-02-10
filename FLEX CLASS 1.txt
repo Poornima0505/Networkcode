@@ -1,0 +1,466 @@
+Transition 
+
+CSS Transition allows to adjust property values smoothly over time.
+
+Transition Property
+Transition delay
+Transition duration
+  div{
+            border:2px solid red;
+            background-color: aqua;
+            width:400px;
+            height:400px;
+            margin:50px;
+            transition-property:all;
+            transition-duration:5s;
+            transition-delay: 3s;
+
+
+        }
+        div:hover{
+            background: linear-gradient(red,yellow);
+            width:50%
+
+Transition timing function
+       Ease in  -------> Start slow        Finish Fast
+
+       Ease out --------->Start Fast       Finish Slow
+
+       Ease in-out ----------->Both Action 
+
+        Linear ----------->Uniform
+
+    div{
+            border:2px solid red;
+            background-color: aqua;
+            width:400px;
+            height:400px;
+            margin:50px;
+            transition-property:all;
+            transition-duration:5s;
+            transition-delay: 3s;
+            /* transition-timing-function: ease-in; */
+            /* transition-timing-function: ease-out; */
+            /* transition-timing-function: ease-in-out; */
+            transition-timing-function: linear;
+        }
+        div:hover{
+            background: linear-gradient(red,yellow);
+            width:50%
+             }
+
+Transform-formation
+
+The tranform CSS Property rotate,scale,skew and translate(moving) an element
+
+Rotate 
+     Rotate 
+     Rotate X
+     Rotate Y
+
+ div{
+            border:2px solid red;
+            /* background-color: aqua; */
+            background-image: url(nature.jpg);
+            width:400px;
+            height:400px;
+            margin-top:200px;
+            margin-left:500px;
+            transition-property:all;
+            transition-duration:5s;
+            /* transition-delay: 3s; */
+            transition-timing-function: linear;
+        }
+        div:hover{
+            background-image: url(Mickey.jpeg);
+            /* background-repeat: no-repeat; */
+            /* width:50%; */
+            /* transform: rotate(360deg); */
+            transform: rotateX(360deg);
+            /* transform:rotateY(360deg); */
+            transform: rotateZ(40deg);
+        }
+
+Scale
+     
+    1  Scale-X
+    2  Scale-Y
+    3  Scale ---------x,y
+
+    div:hover{
+            background-image: url(Mickey.jpeg);
+            /* background-repeat: no-repeat; */
+            /* width:50%; */
+            /* transform: scale(5); */
+            /* transform: scaleX(3); */
+            transform: scaleY(3);
+        }
+
+Skew
+The function is an inbuilt function which is used to transform an element in the 2d plane
+
+1.skew(ax,ay)
+2.skew(ax)
+3.skewX(a)
+4.skewY(a)
+
+ .skew1{
+            width:200px;
+            height:200px;
+            background-image: url(skew.jpeg);
+            margin:100px;
+            transform: skew(10deg);
+       
+        }
+        .skew2{
+            width:200px;
+            height:200px;
+            background-image: url(skew.jpeg);
+            margin:20px;
+            transform: skew(10deg,10deg);
+            margin-top: 50px;
+            
+        }
+        .skew3{
+            width:200px;
+            height:200px;
+            background-image: url(skew.jpeg);
+            margin:20px;
+            transform: skewX(10deg);
+        }
+        .skew4{
+
+            width:200px;
+            height:200px;
+            background-image: url(skew.jpeg);
+            margin:20px;
+            transform: skewY(10deg);
+        }
+
+1.translateX(-val)
+2.translateX(+val)
+3.translateY(-val)
+3.translateY(+val)
+
+ .skew1{
+            width:200px;
+            height:200px;
+            background-image: url(skew.jpeg);
+            margin:100px;
+            /* transform: skew(10deg); */
+            /* transform: translateX(-50px); */
+            /* transform:translateY(50px); */
+            transform: translateY(-50px);
+        }
+
+Animations in CSS
+
+It is defined to move animate transition from one position to another position 
+
+@keyframes - It indicate start and end states of the animation style
+
+The CSS Controls intermediate steps in CSS  Animation Sequence by defining styles for Key frames.
+
+Animation Properties
+
+Animation-name
+Animation-duration
+Animation-fill-mode
+forwards
+backward
+Animation-iteration-count
+
+Syntax:
+
+@keyframes identifier{
+from {
+
+property:value;
+
+}
+To {
+
+property:value;
+
+}
+
+}  
+
+Reference code
+
+<!-- <div class="container"></div> -->
+
+<style>
+/* .container{
+        width:200px;
+        height:200px;
+        background-color: #00ff00;
+        border-radius: 50%;
+        margin:50px;
+        animation-name: radius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 5;
+
+       } */
+<------------------------------------------------>
+
+  @keyframes content {
+
+        /* 10%{
+            background-color: #ff0000;
+            width:300px;
+            height:300px;
+            margin:100px 400px;
+        }
+        30%{
+            background-color: #ccff00;
+            width:200px;
+            height:200px;
+            margin: 200px 100px;
+        }
+        70%{
+            background-color: #332a7c;
+            width:200px;
+            height:200px;
+            margin: 600px 800px;
+        } */
+<---------------------------------------------------------->
+<p>content</p>
+-----------------------
+
+ p{
+        animation-duration: 3s;
+        animation-name: content;
+        animation-iteration-count: 1;
+        color:blueviolet;
+       }
+
+ @keyframes content{
+from{
+            margin-left:100%;
+            width:100%;
+        }
+        75%{
+            font-size:300%;
+            margin-left:25%;
+            width:150%;
+        }
+        to{
+            margin-left:10%;
+            color:blue;
+            width:50%;
+        }
+
+}
+
+</style>
+
+FLEX-BOX
+
+One dimensional layout 
+
+Mainly used for efficient layout and align distributing space. 
+
+Flex-box is alternative property for all CSS Properties 
+eg:display properties
+
+Advantages 
+change the order of element without changing its value.
+
+-------------------------------------------------------------------------
+FLEX BOX PROPERTIES
+
+display
+flex
+inline-flex
+flex-direction
+row
+row-reverse
+column
+column-reverse
+------------------------------------------------
+
+.container{
+    display: flex;
+    width:100vw;
+    height:100vh;
+    justify-content: center ;
+    align-items: center;
+}
+
+--------------------------------------------------------
+
+.container{
+    /* display: inline-flex; */
+    display: flex;
+    flex-direction:row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+
+}
+---------------------------------------------------
+flex-wrap
+wrap
+nowrap
+wrap-reverse
+
+.container{
+    /* display: inline-flex; */
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap:wrap;
+    flex-wrap:nowrap;
+    flex-wrap:wrap-reverse; */
+    height:200px;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
+
+}
+---------------------------------------------------------------
+flex-flow
+.container{
+    display: flex;
+    /* flex-flow:flex-direction flex-wrap; */
+    flex-flow: row wrap;
+}
+<------------------------------------------------------------->
+column gap
+row gap
+gap
+justify content
+align-items
+align-content
+
+Flex item Properties
+
+order
+flex-grow
+flex-basis
+flex-shrink
+align-self
+
+<---------------------------------------------------->
+
+HTML AND CSS
+
+  <div class="container">
+    <div class="flex-item item-1">BOX-1</div>
+    <div class="flex-item item-2">BOX-2</div>
+    <div class="flex-item item-3">BOX-3</div>
+    <div class="flex-item item-4">BOX-4</div>
+    <div class="flex-item item-5">BOX-5</div>
+    <div class="flex-item item-6">BOX-6</div>
+    <div class="flex-item item-7">BOX-7</div>
+    <div class="flex-item item-8">BOX-8</div>
+    <div class="flex-item item-9">BOX-9</div>
+    <div class="flex-item item-10">BOX-10</div>
+    </div>
+
+CSS
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container{
+    border:5px solid black;
+    margin:10px;
+    text-align: center;
+    
+}
+
+.item-1{background-color: red;}
+.item-2{background-color: yellow;}
+.item-3{background-color: blue;}
+.item-4{background-color: green;}
+.item-5{background-color: violet;}
+.item-6{background-color: chartreuse;}
+.item-7{background-color: orange;}
+.item-8{background-color: navy;}
+.item-9{background-color: turquoise;}
+.item-10{background-color: #ccff00;}
+-------------------------------------------------------------
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

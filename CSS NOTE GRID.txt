@@ -1,0 +1,322 @@
+Multiple Column  Layouts 
+
+Multiple column for laying out text - like Newspapers
+
+1.column-count 
+2.column-gap
+3.column-rule-width
+4.column-rule-style
+5.column-rule-color
+6.column-width  increasing & decreaseing
+7.column-rule - width style color(shorthand)
+
+     div{
+          column-count: 3;
+          column-gap: 20px; 
+          column-rule-style: solid ;
+          column-rule-width: 5px ;
+          column-rule-color: darkorange ;
+          /* column-rule: 5px solid darkorange; */
+        
+          /* column-width: 100px; */
+        }
+     
+
+Navigation Bar Design
+    <style>
+        * {
+            font-family: 'Times New Roman', Times, serif;
+            box-sizing: border-box;
+            padding:0px;
+            margin:0px;
+            
+        }
+        header{
+            background-color: aquamarine;
+            display:flex;
+            justify-content: space-between;
+            padding:10px 10px;
+            align-items: center;
+        h2{
+            cursor: pointer;
+            color:red;
+            font-weight: 200;
+        }    
+            
+        }
+        .list-items li {
+             display:inline-block;
+             list-style-type: none;
+        } 
+        .list-items li a{
+            text-decoration: none;
+        }
+        .list-items li{
+               padding:0px 20px;
+        }
+        .list-items li a:hover{
+              color:yellow;
+        }
+        button{
+            background-color: red;
+            color:white;
+            padding:10px 10px;
+            border-radius: 10px;
+            transition-duration: 5s;
+        }
+        button:hover{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Navigation Bar</h2>
+        <nav>
+            <ul class="list-items">
+                <li><a href="">Home</a></li>
+                <li><a href="">Section </a></li>
+                <li><a href="">Articles</a></li>
+                <li><a href="">Products</a></li>
+            </ul>
+        </nav>
+        <button>Contact us</button>
+    </header>
+</body>
+</html>
+
+
+GRID 
+
+Two dimenstional Layout
+
+syntax: 
+
+display:grid;
+
+grid-template-column
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    /* grid-template-columns: repeat(3,1fr); */
+    /* grid-template-columns: repeat(3,200px); */
+    /* grid-template-columns: repeat(3,minmax(200px,1fr)); */
+    /* grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); */
+    /* grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); */
+    gap:20px;
+}
+.para{
+    background-color: red;
+    color:yellow;
+    padding:2rem;
+ 
+}
+
+grid-template-row
+
+.container{
+    display:grid;
+    /* grid-template-columns: 200px 1fr 1fr ; */
+    grid-template-columns: repeat(3,minmax(200px,1fr));
+    /* grid-template-columns: repeat(3,200px); */
+    /* grid-template-columns: repeat(3,minmax(200px,1fr)); */
+    /* grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); */
+    /* grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); */
+    gap:20px;
+    grid-template-rows: 1fr 1fr 1fr ;
+}
+.para{
+    background-color: red;
+    color:yellow;
+    padding:2rem;
+    
+}
+
+GRID AUTO FLOW
+
+Row-(default)
+column
+
+.container{
+    display:grid;
+   
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 200px 300px;
+    margin:10px;
+    gap:20px;
+    grid-auto-flow: row (default items);
+    grid-auto-rows:300px;
+
+
+
+    
+}
+.box1{
+    background-color: red;
+    color:yellow;
+    padding:2rem;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    
+}
+ 
+column
+.container{
+    display:grid;
+   
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 200px;
+    margin:10px;
+    gap:20px;
+    grid-auto-flow: column;
+    grid-auto-rows:300px;
+
+
+
+    
+}
+.box1{
+    background-color: red;
+    color:yellow;
+    padding:2rem;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    
+}
+
+GRID START END SPAN
+
+.container{
+    display:grid;
+   
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 200px;
+    margin:10px;
+    gap:20px;
+    grid-auto-flow: row;
+
+
+
+
+    
+}
+.box1{
+    background-color: red;
+    color:yellow;
+    padding:2rem;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    
+}
+.b1{
+    /* grid-column-start: 1;
+    grid-column-end: 5; */
+    /* grid-column-start: -1;
+    grid-column-end: -5; */
+    /* grid-column: -1/-5; */
+    grid-column: span 5;
+}
+
+.b3{
+    /* grid-row: 2/3; (interchanging) */
+    grid-row:span 2;
+
+}
+ GRID 
+
+Justify-Content
+start 
+end
+center
+
+Align-items
+start  -  Top to Bottom
+end   -  Bottom to Top
+center
+
+
+.container{
+    display:grid;
+   
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    margin:10px;
+    gap:20px;
+    grid-auto-flow: row;
+    align-items: end;
+   
+   
+    
+}
+.box1{
+    background-color: red;
+    color:yellow;
+    padding:2rem;
+    display:grid;
+    justify-content: center;
+    justify-content:start ;
+    font-size: 4rem; 
+    
+}
+
+
+justify-space
+
+.b1{
+    justify-self: center;
+}
+.b3{
+    justify-self:center;
+}
+ 
+GRID LAYOUT USING GRID-AREA
+
+Grid-template-areas
+
+Grid-area
+
+
+.grid-layout div{
+    background-color: violet;
+    border:2px solid red;
+    font-size : 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    display:grid;
+    justify-content:center;
+    align-content:center;
+}
+
+.grid-layout{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows:100px 200px 500px;
+    grid-template-areas: 
+    "h h h h h"
+    "n n n n n"
+    "p p p c c"
+    "f f f f f";
+}
+.Header{
+    grid-area:h;
+}
+.Nav{
+    grid-area:n;
+}
+
+.Picture{
+    grid-area:p;
+}
+.content{
+    grid-area:c;
+}
+.footer{
+    grid-area:f;
+}

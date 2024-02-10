@@ -1,0 +1,291 @@
+CSS 
+
+Cascading Style Sheet
+
+Cascading- Multiple Css Rules apply to an html document
+
+To add Background Iamge
+
+syntax:    body{
+
+                           background-image:url("filename.fileextension");
+
+                        }
+
+Css Rules  selector{
+                                 Property:value;
+                               }
+
+selector is an html elements
+eg:
+
+                               h1{
+                                      color:brown;
+                                      font-family:Times New Romen;
+                                    }
+
+Style - Mandatory  Attributes for every css rule
+
+Types of Style Sheets
+
+
+Inline  
+
+Internal
+
+External 
+
+Inline Style Sheet: Using Inside the Html Elements.
+
+Internal Style Sheet: Inside the head tag use  style tag.
+
+External Style Sheet: Adding style sheet
+
+step1: To link filename.css into html 
+
+Instructing the relationship between stylesheet and filename.css.
+
+syntax: <link rel="stylesheet" href="filename.css">
+
+CSS Selectors
+
+Selectors Defines as Combination of Charaters and Symbols  that instruct the browser to apply specifice css properties.
+
+
+Two types  of Selectors
+
+Simple Selectors
+
+1.Universal Selector (*)
+It selects all the HTML Elements which is present on the html page 
+
+ symbol asterisks(*)
+
+syntax:  * {
+
+                    property:value;
+
+                  }
+
+2.Element Selector    - html tag
+
+ Select elements with element name.
+
+syntax:   p{
+                     
+                     property:value;
+                 
+                  }
+
+3.Class Selector - (.)
+The class selector in css selects element that belong to particular class attribute
+
+syntax:  .classname{
+                                 property:value;
+                              }
+
+
+
+4.ID Selector -(#)
+
+The id attribute is unique identifier 
+To use an id selector in css use #
+
+syntax: #idname{
+                             property:value;
+                          }
+
+5.Group Selectors  - 
+
+  Same style is implemented over Multiple Elements
+
+syntax:
+
+h1,h2,p{
+
+                 property:value;
+
+              }
+
+Combinator Selectors
+
+
+6.Descendent Selector    (space)
+Main element---------sub element  will be styled
+syntax:  eg  div   p{
+                                 property:value;
+
+              } 
+                                
+7.Child Selector              (>)
+It is used to style child tag 
+syntax:   eg div  > p{
+                                 property:value;
+
+              } 
+
+8.Adjacent Sibling selector (+)
+It is used to style the secondary element which is after the main element.
+syntax:   eg div  + p{
+                                 property:value;
+
+              } 
+
+9.Genernal Sibling Selector  (~)  - Tidal Symbol
+
+Last element styled
+syntax:   eg div  ~  p{
+                                 property:value;
+
+              } 
+
+Font Properties
+
+1.Font family
+     eg:   font-family: Times New Romen;
+2.Font style
+     eg:   font-style: italic;
+                             normal;
+3.Font variant
+
+      eg:  font-variant:small-caps;
+4.Font weight
+
+      eg:  font-weight:bold;
+                            bolder;
+5.Font size
+
+        font-size: valuepx;
+6.color
+
+        color:value;
+
+7.Font
+
+Apply Multiple Font Properties to Font 
+
+eg: font:small-caps 30px Times New Romen;
+
+Source code:
+<div>
+        <h1>Cascading Style Sheet</h1>
+        <p id="amet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, eos!</p>
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, molestias.</p>
+        <p class="para1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam corrupti eos sequi cumque ullam quam quae minus, doloremque excepturi unde atque esse<span>facere repellendus veritatis molestias dicta,</span> impedit expedita mollitia!</p>
+        <article><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, veritatis.</p></article>
+    </div>
+        <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima temporibus odit delectus perferendis natus ratione beatae officiis esse, commodi culpa quaerat obcaecati quasi exercitationem? Totam quibusdam ullam modi earum aspernatur.</section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, esse. Aut, reprehenderit. Eius enim reiciendis alias fuga blanditiis earum ea mollitia cum autem quae, illum laudantium asperiores. Reprehenderit, numquam laborum.</p>
+
+style.css
+
+.para{
+    font-family:Vivaldi;
+}
+.para1{
+    font-style:italic;
+    color:darkorange;
+}
+
+span{
+    color:red;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+h1{
+    font-variant: small-caps;
+}
+#amet{
+    
+    font:small-caps 30px Times New Romen;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 
+ 
+                    
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+Display Property
+
+The Property of Css Which is used to control the layout of the element
+It Specifies how  the element is displayed
+
+Block Level Element - The Element which cover whole width of the webpage called Block level.
+
+Inline Element - The Element which is used to style the spectific part or content. 
+
+1.Block 
+2.Inline
+3.Inline-block
+
+
+Icons
+List Icons
+List Property
+
+1.List-style-type
+    #items li{
+            /* list-style-type: decimal; */
+            /* list-style-type:decimal-leading-zero; */
+            /* list-style-type: upper-roman; */
+            /* list-style-type: upper-alpha; */
+            /* list-style-type:lower-greek; */
+            /* list-style-type: lower-latin; */
+            list-style-type: decimal;
+        }
+2.List -style-position
+Inside
+Outside (default)
+
+ /* list-style-position: outside; */
+            list-style-position: inside;
+
+
+Outline 
+
+Outline Property line Drawn around the Element
+
+1.Outline-style
+2.Outline-color
+3.Outline-width
+4.Outline-offset
+
+   div{
+            border:2px solid black;
+            width:600px;
+            height:100px;
+            margin: 50px;
+            outline-style: solid;
+            outline-color: red;
+            outline-width:20px;
+            /* padding:20px; */
+            outline-offset: 30px;
+        }
+
+(Outline------margin------Border-------padding-----content)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
